@@ -33,16 +33,24 @@ let sessionWords = [];
 
 function loadNextWord() {
   if (currentIndex >= sessionWords.length) {
-    card.textContent = "Session Complete!";
 
-    meaningDiv.textContent = `Known: ${known} | Missed: ${missed}`;
+    const accuracy =
+        ((known / sessionWords.length) * 100).toFixed(1);
+
+    japaneseDiv.textContent = "🎉 Session Complete";
+
+    meaningDiv.innerHTML =
+        `
+        Correct: ${known}<br>
+        Missed: ${missed}<br>
+        Accuracy: ${accuracy}%
+        `;
 
     startBtn.style.display = "inline-block";
-
-sessionSizeInput.style.display = "inline-block";
+    sessionSizeInput.style.display = "inline-block";
 
     return;
-  }
+}
 
   const line = sessionWords[currentIndex];
 
@@ -97,7 +105,7 @@ showBtn.addEventListener("click", () => {
 
   const speech = new SpeechSynthesisUtterance(currentMeaning);
 
-  speech.voice = voices.find((voice) => voice.name === "Samantha");
+  speech.voice = voices.find((voice) => voice.name === "Google UK English Female");
 
   speech.lang = "en-US";
 
@@ -120,3 +128,11 @@ missBtn.addEventListener("click", () => {
 
   loadNextWord();
 });
+
+if ("serviceWorker" in navigator) {
+
+    navigator.serviceWorker.register(
+        "./service-worker.js"
+    );
+
+}
