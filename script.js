@@ -13,7 +13,7 @@ const progressBar = document.getElementById("progressBar");
 const progressText = document.getElementById("progressText");
 
 const startBtn = document.getElementById("startBtn");
-const showBtn = document.getElementById("showBtn");
+// const showBtn = document.getElementById("showBtn");
 const knowBtn = document.getElementById("knowBtn");
 const missBtn = document.getElementById("missBtn");
 
@@ -30,27 +30,39 @@ let known = 0;
 let missed = 0;
 let currentIndex = 0;
 let sessionWords = [];
+let missedWords = [];
+let revealTimer;
 
 function loadNextWord() {
   if (currentIndex >= sessionWords.length) {
-
-    const accuracy =
-        ((known / sessionWords.length) * 100).toFixed(1);
+    const accuracy = ((known / sessionWords.length) * 100).toFixed(1);
 
     japaneseDiv.textContent = "🎉 Session Complete";
 
-    meaningDiv.innerHTML =
-        `
+    meaningDiv.innerHTML = `
         Correct: ${known}<br>
         Missed: ${missed}<br>
         Accuracy: ${accuracy}%
         `;
+    if (missedWords.length > 0) {
+
+      console.log(missedWords);
+      const blob = new Blob([missedWords.join("\n")], { type: "text/plain" });
+
+      const link = document.createElement("a");
+
+      link.href = URL.createObjectURL(blob);
+
+      link.download = "missed.txt";
+
+      link.click();
+    }
 
     startBtn.style.display = "inline-block";
     sessionSizeInput.style.display = "inline-block";
 
     return;
-}
+  }
 
   const line = sessionWords[currentIndex];
 
@@ -59,6 +71,7 @@ function loadNextWord() {
   currentMeaning = meaning;
 
   japaneseDiv.textContent = japanese;
+
   const progress = ((currentIndex + 1) / sessionWords.length) * 100;
 
   progressBar.style.width = `${progress}%`;
@@ -66,6 +79,22 @@ function loadNextWord() {
   progressText.textContent = `${currentIndex + 1} / ${sessionWords.length}`;
 
   meaningDiv.textContent = "";
+  clearTimeout(revealTimer);
+
+  revealTimer = setTimeout(() => {
+    meaningDiv.textContent = currentMeaning;
+
+    const speech = new SpeechSynthesisUtterance(currentMeaning);
+
+    speech.voice = voices.find(
+      (voice) => voice.name === "Google UK English Female",
+    );
+
+    speech.lang = "en-US";
+
+    speechSynthesis.cancel();
+    speechSynthesis.speak(speech);
+  }, 3000);
 
   const speech = new SpeechSynthesisUtterance(japanese);
 
@@ -93,46 +122,62 @@ startBtn.addEventListener("click", async () => {
 
   known = 0;
   missed = 0;
+  missedWords = [];
   startBtn.style.display = "none";
 
-sessionSizeInput.style.display = "none";
+  sessionSizeInput.style.display = "none";
 
   loadNextWord();
 });
 
-showBtn.addEventListener("click", () => {
-  meaningDiv.textContent = currentMeaning;
+// showBtn.addEventListener("click", () => {
+//   meaningDiv.textContent = currentMeaning;
 
-  const speech = new SpeechSynthesisUtterance(currentMeaning);
+//   const speech = new SpeechSynthesisUtterance(currentMeaning);
 
-  speech.voice = voices.find((voice) => voice.name === "Google UK English Female");
+//   speech.voice = voices.find((voice) => voice.name === "Google UK English Female");
 
-  speech.lang = "en-US";
+//   speech.lang = "en-US";
 
-  speechSynthesis.cancel();
-  speechSynthesis.speak(speech);
-});
+//   speechSynthesis.cancel();
+//   speechSynthesis.speak(speech);
+// });
 
 knowBtn.addEventListener("click", () => {
-  known++;
 
+  clearTimeout(revealTimer);
+  speechSynthesis.cancel();
+
+  known++;
   currentIndex++;
 
   loadNextWord();
 });
 
 missBtn.addEventListener("click", () => {
+
+  clearTimeout(revealTimer);
+  speechSynthesis.cancel();
+  
   missed++;
+
+  missedWords.push(`${japaneseDiv.textContent},${currentMeaning}`);
 
   currentIndex++;
 
   loadNextWord();
 });
 
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Enter") {
+    knowBtn.click();
+  }
+
+  if (event.key.toLowerCase() === "n") {
+    missBtn.click();
+  }
+});
+
 if ("serviceWorker" in navigator) {
-
-    navigator.serviceWorker.register(
-        "./service-worker.js"
-    );
-
+  navigator.serviceWorker.register("./service-worker.js");
 }
