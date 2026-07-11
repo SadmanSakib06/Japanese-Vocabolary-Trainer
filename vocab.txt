@@ -1,5 +1,5 @@
 わたし,I
-あなた,you (often avoided, use name instead)
+あなた,you (often avoided; use name instead)
 あのひと,that person/he/she
 あのかた,that person/he/she (polite)
 〜さん,Mr./Ms. ~ (polite suffix added to names)
@@ -23,9 +23,9 @@
 いいえ,no
 けんきゅうしゃ,researcher/scholar
 はじめまして,Nice to meet you/How do you do (used only when meeting someone first time)
-〜からきました,I am from〜/I came from〜 (used to state your origin, country, city etc.)
+〜からきました,I am from〜/I came from〜 (used to state your origin/ country/ city/ etc.)
 どうぞよろしくおねがいします,Pleased to meet you/Please treat me well (used at the end of introductions)
-しつれいですが,Excuse me, but… (used before asking something personal or interrupting)
+しつれいですが,Excuse me… but… (used before asking something personal or interrupting)
 おなまえは,May I have your name? (polite way to ask someone's name)
 こちらは〜さんです,This is Mr./Ms. ~ (used when introducing someone to another person)
 これ,this (thing near the speaker)
@@ -41,7 +41,7 @@
 ノート,notebook
 てちょう,personal organizer
 めいし,business card
-カード,card (credit cards, ID cards, etc.)
+カード,card (credit cards/ ID cards/ etc.)
 えんぴつ,pencil
 ボールペン,ballpoint pen
 シャープペンシル,mechanical pencil
@@ -121,7 +121,7 @@
 〜をみせてください,Please show me ~ (used when asking to see something)
 じゃ,Well then/In that case (casual transition expression)
 〜をください,Please give me ~ (used when ordering or requesting)
-おきます,wake up/get up
+おきます,wake up/get up (起きます)
 ねます,sleep/go to bed
 はたらきます,to work
 やすみます,take rest/take a break
@@ -134,8 +134,8 @@
 びじゅつかん,art museum/art gallery
 いま,now
 〜じ,~ o'clock (for telling clock time)
-〜ふん,~ minutes (for 2, 5, 7, 9)
-〜ぷん,~ minutes (for 1, 3, 4, 6, 8, 10)
+〜ふん,~ minutes (for 2/ 5/ 7/ 9)
+〜ぷん,~ minutes (for 1/ 3/ 4/ 6/ 8/ 10)
 はん,half
 なんじ,what time
 なんぷん,what minute
@@ -156,6 +156,7 @@
 しけん,examination/test
 かいぎ,meeting/conference
 えいが,movie/film
+けさ, this morning
 まいあさ,every morning
 まいばん,every night
 まいにち,every day
@@ -171,7 +172,8 @@
 〜まで,until ~ (ending point of time/place)
 〜と〜,and (used to connect nouns)
 たいへんですね,That's tough isn't it (used to show sympathy or concern)
-ばんごう,number (phone, room, etc.)
+ばんごう,number (phone/ room/ etc.)
+でんわばんごう, phone number
 なんばん,what number (asking number/order)
 そちら,your place (your current location)
 いきます,go
@@ -198,12 +200,15 @@
 せんしゅう,last week
 こんしゅう,this week
 らいしゅう,next week
+まいしゅう, every week
 せんげつ,last month
 こんげつ,this month
 らいげつ,next month
+まいつき, every month
 きょねん,last year
 ことし,this year
 らいねん,next year
+まいとし, every year
 〜ねん,~ year (used for years)
 なんねん,which year
 〜がつ,~ month (used for months)
@@ -232,13 +237,13 @@
 〜ばんせん,platform number (train or bus platform)
 ふつう,local train (stops at all stations)
 きゅうこう,rapid train (stops at fewer stations)
-とっきゅう,express train (faster, fewer stops)
+とっきゅう,express train (faster/ fewer stops)
 たべます,eat
 のみます,drink
 すいます,smoke (cigarette)
 たばこをすいます,smoke a cigarette
 みます,see/watch/look at
-ききます,listen/hear
+ききます,listen/hear/to ask (depends on context)
 よみます,read
 かきます,write/draw
 かいます,buy
@@ -261,7 +266,7 @@
 おちゃ,green tea
 こうちゃ,black tea
 ぎゅうにゅう,milk (cow's milk)
-ミルク,milk (powdered milk, baby formula)
+ミルク,milk (powdered milk/ baby formula)
 ジュース,juice
 ビール,beer
 おさけ,alcohol/rice wine (general)
@@ -316,7 +321,7 @@
 プレゼント,gift/present
 にもつ,luggage/baggage/parcel
 おかね,money
-きっぷ,ticket (train, bus, etc.)
+きっぷ,ticket (train/ bus/ etc.)
 クリスマス,Christmas
 ちち,father (my own)
 はは,mother (my own)
@@ -328,16 +333,16 @@
 〜すてきですね,what a nice~/how lovely~ (used to praise something)
 いらっしゃい,Welcome/Come in/How nice of you to come (casual greeting by host or shop)
 どうぞおあがりください,Do come in/Please come in (polite invitation into home)
-しつれいします,May I/Excuse me (used when entering, leaving or interrupting politely)
+しつれいします,May I/Excuse me (used when entering or leaving or interrupting politely)
 〜いかがですか,Won't you have ~?/How about ~? (politely offering something)
 いただきます,Thank you/Thankfully received/Let's eat (said before starting to eat or drink)
 ごちそうさまでした,That was delicious/Thank you for the meal (said after eating or drinking)
 ハンサム［な］,handsome
-きれい［な］,beautiful/clean (exception, na-adj)
+きれい［な］,beautiful/clean (exception: na-adj)
 しずか［な］,quiet
 にぎやか［な］,lively
-ゆうめい［な］,famous (exception, na-adj)
-げんき［な］,healthy/energetic/cheerful (exception, na-adj)
+ゆうめい［な］,famous (exception: na-adj)
+げんき［な］,healthy/energetic/cheerful (exception: na-adj)
 しんせつ［な］,kind/helpful/considerate (not for family)
 ひま［な］,free time
 べんり［な］,convenient
@@ -389,9 +394,8 @@
 いいえ,Not at all (polite negative response)
 またいらっしゃってください,Please come again (polite invitation to visit again)
 わかります,understand
-あります,have (for non-living things)
 すき［な］,like
-きらい［な］,dislike/hate (exception, na-adj)
+きらい［な］,dislike/hate (exception: na-adj)
 じょうず［な］,good at (skilled)
 へた［な］,poor at (unskilled)
 ざんねん［な］,unfortunate/regrettable
@@ -443,8 +447,8 @@
 〜はちょっと,~ is a bit difficult (soft indirect refusal)
 だめですか,So you can't come?/Is it not okay? (asking permission or possibility)
 またこんどおねがいします,Please ask me again another time/Maybe next time please (polite way to postpone or refuse)
-あります,exist/to be (for non-living things)
-います,exist/to be (for living things)
+あります,have/exist/to be/take place or to be held (for non-living things)
+います,have/exist/to be/stay or be in a place (for living things)
 いろいろ［な］,various/many kinds
 おとこのひと,man
 おんなのひと,woman
@@ -472,7 +476,7 @@
 こうえん,park
 きっさてん,coffee shop/cafe
 〜や,~ shop/~store (used with shop names)
-のりば,boarding area/platform/place to ride transport (taxi, train, etc.)
+のりば,boarding area/platform/place to ride transport (taxi/ train/ etc.)
 けん,prefecture (Japanese regional division)
 うえ,on/above/over
 した,under/below/beneath
@@ -601,10 +605,9 @@
 ただいま,I'm home (said when returning home)
 おかえりなさい,Welcome home (said to someone returning home)
 わあすごいひとですね,Wow! Look at all those people! (expressing surprise at a crowd)
-すごいですね,That's amazing (used to express admiration)
 つかれました,I'm tired (after effort or activity)
 でも,but (using at the start of a sentence)
-〜けど,but~ (use in the middle of a sentence, connect clauses)
+〜けど,but~ (use in the middle of a sentence/ connect clauses)
 あそびます,enjoy oneself/play
 およぎます,swim
 むかえます,go to meet/welcome
@@ -627,8 +630,8 @@
 スキー,skiing
 しゅうまつ,weekend
 おしょうがつ,New Year's Day
-〜ごろ,about (specific point in time, e.g., 3 o'clock)
-ぐらい,about (duration or length of time, 3 hours)
+〜ごろ,about (specific point in time, e.g.: 3 o'clock)
+ぐらい,about (duration or length of time: 3 hours)
 なにか,something (unspecified thing)
 どこか,somewhere/someplace (unspecified place)
 のどがかわきました,get thirsty (when expressing thirst)
@@ -647,7 +650,7 @@
 いそぎます,hurry
 まちます,wait
 もちます,hold
-とります,take/pass
+とります,take/pass (something)
 てつだいます,help (with a task)
 よびます,call
 はなします,speak/talk
@@ -675,6 +678,8 @@
 こたえ,answer
 よみかた,way of reading/how to read
 〜かた,way of doing ~/how to ~
+〜たち, plural suffix (we/ you/ they)
+〜すぎる, too much
 まっすぐ,straight
 ゆっくり,slowly/leisurely
 すぐ,immediately
@@ -687,7 +692,7 @@
 しんごうをみぎへまがってください,Please turn right at the traffic light
 これでおねがいします,I would like to pay with this (used when handing over money)
 おつり,change (money returned after payment)
-おきます,put
+おきます,put (置きます)
 つくります,make/produce
 うります,sell
 しります,get to know
@@ -772,7 +777,7 @@
 はらいます,pay
 かえします,give back/return
 でかけます,go out
-ぬぎます,take off (clothes, shoes, etc.)
+ぬぎます,take off (clothes/ shoes/ etc.)
 もっていきます,take (something)
 もってきます,bring (something)
 しんぱいします,worry
@@ -800,11 +805,10 @@
 のど,throat
 〜がいたいです,I have a pain in my ~ (expressing pain in body part)
 かぜ,cold/flu (illness)
-それから,and then/and furthermore (adding information)
 おだいじに,Take care of yourself (said to someone who is sick)
 できます,be able to/can
 あらいます,wash
-ひきます,play (stringed instrument, piano, etc.)
+ひきます,play (stringed instrument/ piano/ etc.)
 うたいます,sing
 あつめます,collect/gather
 すてます,throw away
@@ -841,7 +845,6 @@
 れんしゅう,practice
 ゴルフ,golf
 すもう,sumo wrestling
-おちゃ,tea ceremony
 ひ,day/date
 ちょうし,condition
 いちど,once
@@ -857,9 +860,9 @@
 いります,to need
 しらべます,to check/to investigate
 しゅうりします,to repair
-ぼく,I (informal わたし, mainly used by males)
-きみ,you (informal あなた, used to address people of same or lower status)
-〜くん,Mr. (informal 〜さん, used to address people of same or lower status, often appended to boys' names)
+ぼく,I (informal わたし: mainly used by males)
+きみ,you (informal あなた: used to address people of same or lower status)
+〜くん,Mr. (informal 〜さん: used to address people of same or lower status/ often appended to boys' names)
 うん,yes (informal はい)
 ううん,no (informal いいえ)
 ことば,word/language
@@ -880,7 +883,6 @@
 いいます,to say
 かちます,to win
 まけます,to lose
-あります,to be held/take place
 やくにたちます,to be useful
 うごきます,to move
 やめます,quit/retire/stop/give up
@@ -917,7 +919,7 @@
 もちろん,of course (strong agreement)
 もうかえらないと,I have to get home now/I have to go home now (feeling it's time to leave)
 きます,to put on (shirt)
-はきます,to put on (shoes, trousers)
+はきます,to put on (shoes/ trousers)
 かぶります,to put on (hat)
 かけます,to put on (glasses)
 しめます,to put on (tie)
@@ -933,9 +935,8 @@
 ロボット,robot
 ユーモア,humor
 つごう,convenience/circumstances/availability
-よく,often
 えーと,well/let me see (used while thinking what to say)
-おめでとうございます,congratulations (for birthdays, weddings, achievements, etc.)
+おめでとうございます,congratulations (for birthdays/ weddings/ achievements/ etc.)
 おさがしですか,are you looking for ~? (used by staff offering help)
 では,well then (used when moving to next topic/action)
 やちん,rent (money paid for housing)
@@ -943,15 +944,14 @@
 わしつ,Japanese-style room (tatami room)
 おしいれ,Japanese-style closet (for storing futons)
 ふとん,Japanese-style mattress and quilt (laid on floor for sleeping)
-ききます,to ask
-まわします,to turn (spin, rotate)
+まわします,to turn (spin/ rotate)
 ひきます,to pull
 かえます,to change
 さわります,to touch
 でます,to come out
 あるきます,to walk
 わたります,to cross
-まがります,to turn (change direction, to the right or left)
+まがります,to turn (change direction/ to the right or left)
 さびしい,lonely
 おゆ,hot water
 おと,sound
@@ -985,7 +985,6 @@
 ほかに,besides/other than that
 かんがえます,to think/consider
 つきます,to arrive
-とります,to grow old
 たりません,to be enough/to be sufficient
 いなか,countryside/hometown
 チャンス,chance
