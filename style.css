@@ -1,121 +1,178 @@
 body {
-    font-family: Arial, sans-serif;
-    background: #0f1115;
-    color: white;
-    text-align: center;
-    padding-top: 40px;
+  font-family: Arial, sans-serif;
+  background: #0f1115;
+  color: white;
+  text-align: center;
+  padding-top: 40px;
 }
 
 .container {
-    max-width: 800px;
-    margin: auto;
+  max-width: 800px;
+  margin: auto;
 }
 
 h1 {
-    margin-bottom: 30px;
-    font-size: 2.2rem;
-    letter-spacing: 1px;
-    font-weight: 600;
+  margin-bottom: 30px;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+  font-weight: 600;
 }
 
 input {
-    width: 100px;
-    padding: 10px;
-    font-size: 18px;
-    text-align: center;
+  width: 100px;
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
 
-    background: #1f1f1f;
-    color: white;
+  background: #1f1f1f;
+  color: white;
 
-    border: 1px solid #333;
-    border-radius: 10px;
+  border: 1px solid #333;
+  border-radius: 10px;
 }
 
 button {
-    background: #20242d;
-    color: white;
+  background: #20242d;
+  color: white;
 
-    border: none;
-    border-radius: 12px;
+  border: none;
+  border-radius: 12px;
 
-    padding: 12px 24px;
-    margin: 8px;
+  padding: 12px 24px;
+  margin: 8px;
 
-    font-size: 18px;
-    cursor: pointer;
+  font-size: 18px;
+  cursor: pointer;
 
-    transition: 0.2s;
+  transition: 0.2s;
 }
 
 button:hover {
-    background: #2a3040;
+  background: #2a3040;
 }
 
 #card {
-    background: #171a21;
+  background: #171a21;
 
-    margin-top: 30px;
-    padding: 60px;
+  margin-top: 30px;
+  padding: 60px;
 
-    border-radius: 20px;
+  border-radius: 20px;
 
-    font-size: 64px;
-    letter-spacing: 2px;
-    font-weight: bold;
+  font-size: 64px;
+  letter-spacing: 2px;
+  font-weight: bold;
 
-    min-height: 120px;
+  min-height: 120px;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    box-shadow:
-    0 10px 40px rgba(0,0,0,0.4),
-    0 0 1px rgba(255,255,255,0.05);
+  box-shadow:
+    0 10px 40px rgba(0, 0, 0, 0.4),
+    0 0 1px rgba(255, 255, 255, 0.05);
 }
 
 #meaning {
-    margin-top: 25px;
+  margin-top: 25px;
 
-    font-size: 28px;
+  font-size: 28px;
 
-    color: #8a8f98;
+  color: #8a8f98;
 
-    min-height: 40px;
+  min-height: 40px;
 }
 
 #progressContainer {
-    width: 100%;
-    height: 12px;
+  width: 100%;
+  height: 12px;
 
-    background: #222831;
+  background: #222831;
 
-    border-radius: 999px;
+  border-radius: 999px;
 
-    overflow: hidden;
+  overflow: hidden;
 
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 #progressBar {
-    width: 0%;
+  width: 0%;
 
-    height: 100%;
+  height: 100%;
 
-    background: #4f8cff;
+  background: #4f8cff;
 
-    transition: width 0.3s ease;
+  transition: width 0.3s ease;
 }
 
 #progressText {
-    margin-bottom: 15px;
-    color: #8a8f98;
-    font-size: 14px;
-    letter-spacing: 1px;
+  margin-bottom: 15px;
+  color: #8a8f98;
+  font-size: 14px;
+  letter-spacing: 1px;
 }
 
 #japanese {
-    font-size: 64px;
-    font-weight: bold;
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+
+  margin: 20px 0;
+
+  color: #d8dbe2;
+  font-size: 18px;
+}
+
+.toggle input {
+  display: none;
+}
+
+.slider {
+  width: 52px;
+  height: 28px;
+
+  background: #3b4252;
+
+  border-radius: 999px;
+
+  position: relative;
+
+  cursor: pointer;
+
+  transition: 0.25s;
+}
+
+.slider::before {
+  content: "";
+
+  position: absolute;
+
+  width: 22px;
+  height: 22px;
+
+  border-radius: 50%;
+
+  background: white;
+
+  left: 3px;
+  top: 3px;
+
+  transition: 0.25s;
+}
+
+.toggle input:checked + .slider {
+  background: #4f7cff;
+}
+
+.toggle input:checked + .slider::before {
+  transform: translateX(24px);
 }

@@ -8,12 +8,13 @@ speechSynthesis.onvoiceschanged = () => {
 
 const sessionSizeInput = document.getElementById("sessionSize");
 
+const autoRevealCheckbox = document.getElementById("autoReveal");
+
 const progressBar = document.getElementById("progressBar");
 
 const progressText = document.getElementById("progressText");
 
 const startBtn = document.getElementById("startBtn");
-// const showBtn = document.getElementById("showBtn");
 const knowBtn = document.getElementById("knowBtn");
 const missBtn = document.getElementById("missBtn");
 
@@ -21,7 +22,7 @@ const card = document.getElementById("card");
 const japaneseDiv = document.getElementById("japanese");
 const meaningDiv = document.getElementById("meaning");
 
-let showingMeaning = false;
+// let showingMeaning = false;
 let currentJapanese = "";
 let currentMeaning = "";
 
@@ -32,6 +33,21 @@ let currentIndex = 0;
 let sessionWords = [];
 let missedWords = [];
 let revealTimer;
+
+function revealMeaning() {
+  meaningDiv.textContent = currentMeaning;
+
+  const speech = new SpeechSynthesisUtterance(currentMeaning);
+
+  speech.voice = voices.find(
+    (voice) => voice.name === "Google UK English Female",
+  );
+
+  speech.lang = "en-US";
+
+  speechSynthesis.cancel();
+  speechSynthesis.speak(speech);
+}
 
 function loadNextWord() {
   if (currentIndex >= sessionWords.length) {
@@ -45,8 +61,6 @@ function loadNextWord() {
         Accuracy: ${accuracy}%
         `;
     if (missedWords.length > 0) {
-
-      console.log(missedWords);
       const blob = new Blob([missedWords.join("\n")], { type: "text/plain" });
 
       const link = document.createElement("a");
@@ -56,10 +70,12 @@ function loadNextWord() {
       link.download = "missed.txt";
 
       link.click();
+      URL.revokeObjectURL(link.href);
     }
 
     startBtn.style.display = "inline-block";
     sessionSizeInput.style.display = "inline-block";
+    autoRevealCheckbox.parentElement.style.display = "flex";
 
     return;
   }
@@ -68,6 +84,7 @@ function loadNextWord() {
 
   const [japanese, meaning] = line.split(",", 2);
 
+  currentJapanese = japanese;
   currentMeaning = meaning;
 
   japaneseDiv.textContent = japanese;
@@ -81,22 +98,13 @@ function loadNextWord() {
   meaningDiv.textContent = "";
   clearTimeout(revealTimer);
 
-  revealTimer = setTimeout(() => {
-    meaningDiv.textContent = currentMeaning;
+  if (autoRevealCheckbox.checked) {
+    revealTimer = setTimeout(() => {
+      revealMeaning();
+    }, 3000);
+  }
 
-    const speech = new SpeechSynthesisUtterance(currentMeaning);
-
-    speech.voice = voices.find(
-      (voice) => voice.name === "Google UK English Female",
-    );
-
-    speech.lang = "en-US";
-
-    speechSynthesis.cancel();
-    speechSynthesis.speak(speech);
-  }, 3000);
-
-  const speech = new SpeechSynthesisUtterance(japanese);
+  const speech = new SpeechSynthesisUtterance(currentJapanese);
 
   speech.voice = voices.find((voice) => voice.name === "Google 日本語");
 
@@ -126,25 +134,12 @@ startBtn.addEventListener("click", async () => {
   startBtn.style.display = "none";
 
   sessionSizeInput.style.display = "none";
+  autoRevealCheckbox.parentElement.style.display = "none";
 
   loadNextWord();
 });
 
-// showBtn.addEventListener("click", () => {
-//   meaningDiv.textContent = currentMeaning;
-
-//   const speech = new SpeechSynthesisUtterance(currentMeaning);
-
-//   speech.voice = voices.find((voice) => voice.name === "Google UK English Female");
-
-//   speech.lang = "en-US";
-
-//   speechSynthesis.cancel();
-//   speechSynthesis.speak(speech);
-// });
-
 knowBtn.addEventListener("click", () => {
-
   clearTimeout(revealTimer);
   speechSynthesis.cancel();
 
@@ -155,10 +150,9 @@ knowBtn.addEventListener("click", () => {
 });
 
 missBtn.addEventListener("click", () => {
-
   clearTimeout(revealTimer);
   speechSynthesis.cancel();
-  
+
   missed++;
 
   missedWords.push(`${japaneseDiv.textContent},${currentMeaning}`);
@@ -173,11 +167,30 @@ document.addEventListener("keydown", (event) => {
     knowBtn.click();
   }
 
+  if (event.code === "Space") {
+    event.preventDefault();
+
+    const speech = new SpeechSynthesisUtterance(currentJapanese);
+
+    speech.voice = voices.find((voice) => voice.name === "Google 日本語");
+
+    speech.lang = "ja-JP";
+
+    speechSynthesis.cancel();
+    speechSynthesis.speak(speech);
+  }
+
+  if (event.key.toLowerCase() === "r") {
+    if (!autoRevealCheckbox.checked) {
+      revealMeaning();
+    }
+  }
+
   if (event.key.toLowerCase() === "n") {
     missBtn.click();
   }
 });
 
-if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("./service-worker.js");
-}
+// if ("serviceWorker" in navigator) {
+//   navigator.serviceWorker.register("./service-worker.js");
+// }

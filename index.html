@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Japanese Vocabulary Trainer</title>
+    <title>Vocabulary Trainer</title>
+    <link rel="icon" href="icon.jpg">
 
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="style.css">
@@ -13,9 +14,23 @@
 <body>
 
     <div class="container">
-        <h1>語彙 Trainer N5</h1>
+        <h1>語彙 Trainer JLPT | N5</h1>
 
-        <input type="number" id="sessionSize" value="50" min="10">
+        <input type="number" id="sessionSize" value="100" min="10">
+
+        <br><br>
+
+        <label class="toggle">
+
+            <input type="checkbox" id="autoReveal" checked>
+
+            <span class="slider"></span>
+
+            <span class="toggle-text">
+                Auto Reveal
+            </span>
+
+        </label>
 
         <br><br>
 
