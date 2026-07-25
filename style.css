@@ -180,3 +180,133 @@ button:hover {
 #appScreen {
   display: none;
 }
+/* JLPT Level Selector */
+
+#levelSelect {
+  width: 140px;
+  padding: 10px;
+
+  font-size: 18px;
+  font-family: inherit;
+
+  background: #1f1f1f;
+  color: white;
+
+  border: 1px solid #333;
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  outline: none;
+
+  text-align: center;
+
+  transition: 0.2s ease;
+}
+
+
+#levelSelect:hover {
+  background: #2a3040;
+}
+
+
+#levelSelect:focus {
+  border-color: #4f8cff;
+  box-shadow: 0 0 0 3px rgba(79, 140, 255, 0.15);
+}
+
+
+#levelSelect option {
+  background: #1f1f1f;
+  color: white;
+}
+
+/*Animation Style*/
+
+#sakura-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  pointer-events: none;
+  overflow: hidden;
+
+  z-index: 999;
+}
+
+
+.sakura {
+  position: absolute;
+
+  top: -20px;
+
+  font-size: 24px;
+
+  animation: fall linear infinite;
+
+  opacity: 0.1;
+}
+
+
+@keyframes fall {
+
+  from {
+    transform: translateY(-50px) rotate(0deg);
+  }
+
+  to {
+    transform: translateY(110vh) rotate(360deg);
+  }
+
+}
+/* Kotoba Neko Study Buddy */
+#neko-left,
+#neko-right {
+
+  position: fixed;
+
+  bottom: 80px;
+
+  font-family: monospace;
+
+  font-size: 28px;
+
+  color: #d8dbe2;
+
+  animation: nekoFloat 2s infinite ease-in-out;
+
+  opacity: 0.8;
+
+  z-index: 10;
+}
+
+
+#neko-left {
+  left: 40px;
+}
+
+
+#neko-right {
+  right: 40px;
+}
+
+@keyframes nekoFloat {
+
+  0%,100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-24px);
+  }
+
+}
+
+@media (max-width: 700px) {
+  #neko-left {
+    display:none;
+  }
+}

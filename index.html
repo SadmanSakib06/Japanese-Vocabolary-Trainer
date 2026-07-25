@@ -13,6 +13,8 @@
 
 <body>
 
+    <div id="sakura-container"></div>
+
     <div class="container">
 
         <div id="loginScreen">
@@ -32,6 +34,11 @@
             <h1>語彙 | JLPT Trainer </h1>
 
             <input type="number" id="sessionSize" value="100" min="10">
+
+            <select id="levelSelect">
+                <option value="N5"> Level N5 </option>
+                <option value="N4"> Level N4 </option>
+            </select>
 
             <br><br>
 
@@ -64,6 +71,34 @@
                 <div id="meaning"></div>
             </div>
 
+            <div id="neko-left">
+    <div class="cat-ear">
+        /\_/\
+    </div>
+
+    <div class="cat-face">
+        ( o.o )
+    </div>
+
+    <div class="cat-mouth">
+        &gt; ^ &lt;
+    </div>
+</div>
+
+ <div id="neko-right">
+    <div class="cat-ear">
+        /\_/\
+    </div>
+
+    <div class="cat-face">
+        ( o.o )
+    </div>
+
+    <div class="cat-mouth">
+        &gt; ^ &lt;
+    </div>
+</div>
+
             <br><br>
 
             <br><br>
@@ -82,6 +117,7 @@
 
     <script type="module" src="firebase.js"></script>
     <script type="module" src="auth.js"></script>
+    <script type="module" src="database.js"></script>
     <script type="module" src="script.js"></script>
 
 </body>

@@ -1,4 +1,5 @@
 import { auth } from "./firebase.js";
+import { createUserProfile } from "./database.js";
 
 import {
   GoogleAuthProvider,
@@ -41,15 +42,18 @@ loginBtn.addEventListener("click", async () => {
 });
 
 // ---------- Authentication State ----------
-onAuthStateChanged(auth, (user) => {
+onAuthStateChanged(auth, async (user) => {
   if (user) {
     console.log("✅ Signed in:", user.displayName);
+
+    await createUserProfile(user);
 
     showApp();
   } else {
     console.log("❌ Not signed in");
 
     showLogin();
+
     loginBtn.disabled = false;
   }
 });

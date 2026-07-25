@@ -1,0 +1,1038 @@
+わたし,I
+あなた,you (often avoided; use name instead)
+あのひと,that person/he/she
+あのかた,that person/he/she (polite)
+〜さん,Mr./Ms. ~ (polite suffix added to names)
+〜ちゃん,~ (suffix for children or close friends)
+〜じん,~ person/nationality (used with country names)
+せんせい,teacher/instructor (for others profession)
+きょうし,teacher/instructor (for own profession)
+がくせい,student
+かいしゃいん,company employee
+〜しゃいん,employee of ~ company (after company names)
+ぎんこういん,bank employee
+いしゃ,doctor
+だいがく,university
+びょういん,hospital
+だれ,who
+どなた,who (polite)
+〜さい,~years old (used for age)
+なんさい,how old
+おいくつ,how old (polite)
+はい,yes
+いいえ,no/not at all
+けんきゅうしゃ,researcher/scholar
+はじめまして,Nice to meet you/How do you do (used only when meeting someone first time)
+〜からきました,I am from〜/I came from〜 (used to state your origin/ country/ city/ etc.)
+どうぞよろしくおねがいします,Pleased to meet you/Please treat me well (used at the end of introductions)
+しつれいですが,Excuse me… but… (used before asking something personal or interrupting)
+おなまえは,May I have your name? (polite way to ask someone's name)
+こちらは〜さんです,This is Mr./Ms. ~ (used when introducing someone to another person)
+これ,this (thing near the speaker)
+それ,that (thing near the listener)
+あれ,that (thing far from both)
+この〜,this ~ (used before noun)
+その〜,that ~ (used before noun)
+あの〜,that ~ (used before noun)
+ほん,book
+じしょ,dictionary
+ざっし,magazine
+しんぶん,newspaper
+ノート,notebook
+てちょう,personal organizer
+めいし,business card
+カード,card (credit cards/ID cards/etc.)
+えんぴつ,pencil
+ボールペン,ballpoint pen
+シャープペンシル,mechanical pencil
+かぎ,key
+とけい,watch/clock
+かさ,umbrella
+かばん,bag/briefcase
+シーディー,CD/compact disc
+テレビ,television
+ラジオ,radio
+カメラ,camera
+コンピューター,computer
+くるま,car/vehicle
+つくえ,desk
+いす,chair
+チョコレート,chocolate
+コーヒー,coffee
+おみやげ,souvenir/present/gift from trip
+えいご,the English language
+にほんご,the Japanese language
+〜ご,language ~ (used with country names)
+なん,what (used before t/d/n sounds)
+なに,what (used in other cases except those)
+そう,so/that's right/like that (used to express agreement or confirmation)
+ええと,umm/well/let me see (filler word used while thinking what to say)
+あのう,umm/err (filler word used to show hesitation or politeness)
+えっ,Oh?/What! (used when surprised or hearing something unexpected)
+どうぞ,Here you are/Here you go (used when offering something to someone)
+どうもありがとうございます,Thank you very much (most polite way to express gratitude)
+そうですか,I see (used when receiving new information)
+ちがいます,No it isn't/You are wrong (used to politely disagree or correct something)
+あ,Oh!/Ah! (used when realizing or remembering something suddenly)
+ああ,ah/yes/ohh (used when realizing or understanding or acknowledging something)
+これからおせわになります,Thank you in advance for your kindness (used when starting a new relationship or job)
+こちらこそどうぞよろしくおねがいします,Pleased to meet you too (used as a polite response to an introduction)
+ここ,here/this place (near me)
+そこ,there/that place (near you)
+あそこ,over there/that place (far from both)
+どこ,where/what place
+こちら,this way/this place (polite)
+そちら,that way/that place (polite)
+あちら,over there/that place (polite)
+どちら,which way/where (polite)
+きょうしつ,classroom
+しょくどう,dining hall/canteen
+じむしょ,office
+かいぎしつ,conference room/meeting room
+うけつけ,reception desk
+ロビー,lobby
+へや,room
+トイレ,toilet/restroom
+おてあらい,toilet/restroom (polite)
+かいだん,staircase
+エレベーター,elevator/lift
+エスカレーター,escalator
+じどうはんばいき,vending machine
+でんわ,telephone handset/telephone call
+くに,country
+おくに,country (polite)
+かいしゃ,company
+うち,home/house (my place)
+いえ,house/home (building)
+くつ,shoes
+ネクタイ,necktie/tie
+ワイン,wine
+うりば,sales counter/sales section (in a store)
+ちか,basement
+〜かい,~ floor (building floors)
+なんがい,which floor
+〜えん,yen (Japanese currency)
+いくら,how much (price or amount)
+ひゃく,hundred
+せん,thousand
+まん,ten thousand
+すみません,Excuse me (used to get someone's attention politely)
+どうも,Thanks (casual expression for thanks)
+いらっしゃいませ,Welcome/May I help you? (said by shop or restaurant staff)
+〜をみせてください,Please show me ~ (used when asking to see something)
+じゃ,Well then/In that case (casual transition expression)
+〜をください,Please give me ~ (used when ordering or requesting)
+おきます,wake up/get up (起きます)
+ねます,sleep/go to bed
+はたらきます,to work
+やすみます,take rest/take a break
+べんきょうします,to study
+おわります,to finish
+デパート,department store
+ぎんこう,bank
+ゆうびんきょく,post office
+としょかん,library
+びじゅつかん,art museum/art gallery
+いま,now
+〜じ,~ o'clock (for telling clock time)
+〜ふん,~ minutes (for 2/5/7/9)
+〜ぷん,~ minutes (for 1/3/4/6/8/10)
+はん,half
+なんじ,what time
+なんぷん,what minute
+ごぜん,a.m.
+ごご,p.m.
+あさ,morning
+ひる,noon/daytime
+よる,evening/night
+ばん,evening/night (used in time expressions)
+おととい,the day before yesterday
+きのう,yesterday
+きょう,today
+あした,tomorrow
+あさって,the day after tomorrow
+こんばん,this evening/tonight
+やすみ,rest/holiday/a day off
+ひるやすみ,lunch break/lunchtime
+しけん,examination/test
+かいぎ,meeting/conference
+えいが,movie/film
+けさ,this morning
+まいあさ,every morning
+まいばん,every night
+まいにち,every day
+げつようび,Monday
+かようび,Tuesday
+すいようび,Wednesday
+もくようび,Thursday
+きんようび,Friday
+どようび,Saturday
+にちようび,Sunday
+なんようび,what day of the week
+〜から,from ~ (starting point of time/place)
+〜まで,until ~ (ending point of time/place)
+〜と〜,and (used to connect nouns)
+たいへんですね,That's tough isn't it (used to show sympathy or concern)
+ばんごう,number (phone/room/etc.)
+でんわばんごう,phone number
+なんばん,what number (asking number/order)
+そちら,your place (your current location)
+いきます,go
+きます,come
+かえります,return/go back/return home
+がっこう,school
+スーパー,supermarket
+えき,station (train/subway station)
+ひこうき,airplane
+ふね,ship
+でんしゃ,train/electric train
+ちかてつ,subway/underground train
+しんかんせん,the bullet train
+バス,bus
+タクシー,taxi
+じてんしゃ,bicycle/bike
+あるいて,on foot/by walking
+ひと,person/people
+ともだち,friend
+かれ,he/boyfriend (depends on context)
+かのじょ,she/girlfriend (depends on context)
+かぞく,family
+ひとりで,alone/by oneself
+せんしゅう,last week
+こんしゅう,this week
+らいしゅう,next week
+まいしゅう,every week
+せんげつ,last month
+こんげつ,this month
+らいげつ,next month
+まいつき,every month
+きょねん,last year
+ことし,this year
+らいねん,next year
+まいとし,every year
+〜ねん,~year (used for years)
+なんねん,which year
+〜がつ,~month (used for months)
+なんがつ,what month
+ついたち,1st day of month
+ふつか,2nd day of month
+みっか,3rd day of month
+よっか,4th day of month
+いつか,5th day of month
+むいか,6th day of month
+なのか,7th day of month
+ようか,8th day of month
+ここのか,9th day of month
+とおか,10th day of month
+じゅうよっか,14th day of month
+はつか,20th day of month
+にじゅうよっか,24th day of month
+〜にち,~ day (used for calendar dates)
+なんにち,what date
+いつ,when (asking about time or date)
+たんじょうび,birthday
+つぎ,next
+そうですね,That's right/Well let me see… (used while thinking or agreeing)
+どうもありがとうございます,Thank you very much (polite stronger expression of thanks)
+どういたしまして,You're welcome (reply after being thanked)
+〜ばんせん,platform number (train or bus platform)
+ふつう,local train (stops at all stations)
+きゅうこう,rapid train (stops at fewer stations)
+とっきゅう,express train (faster/fewer stops)
+たべます,eat
+のみます,drink
+すいます,smoke (cigarette)
+たばこをすいます,smoke a cigarette
+みます,see/watch/look at
+ききます,listen/hear/to ask (depends on context)
+よみます,read
+かきます,write/draw
+かいます,buy
+とります,take something/pick up
+しゃしんをとります,take a photograph
+します,do/play
+あいます,meet
+ともだちにあいます,meet a friend
+ごはん,meal/cooked rice
+あさごはん,breakfast
+ひるごはん,lunch
+ばんごはん,dinner
+パン,bread
+たまご,egg
+にく,meat
+さかな,fish
+やさい,vegetables
+くだもの,fruit
+みず,water
+おちゃ,green tea
+こうちゃ,black tea
+ぎゅうにゅう,milk (cow's milk)
+ミルク,milk (powdered milk/ baby formula)
+ジュース,juice
+ビール,beer
+おさけ,alcohol/rice wine (general)
+たばこ,cigarette/tobacco
+てがみ,letter
+レポート,report
+しゃしん,photograph
+ビデオ,video tape/video recording/video deck
+みせ,shop/store
+にわ,garden
+しゅくだい,homework
+テニス,tennis
+サッカー,soccer/football
+はなみ,cherry blossom viewing
+いっしょに,together
+ちょっと,a little while/a little/a bit
+いつも,always/usually
+ときどき,sometimes
+それから,after that/and then (used to continue sequence)
+ええ,yes (casual affirmation or soft response)
+いいですね,that's good/sounds nice (used for agreement)
+わかりました,I understand (polite response after explanation)
+なんですか,Yes?/What is it? (polite question form)
+じゃあまたあした,Well then see you tomorrow (casual goodbye expression)
+きります,cut/slice
+おくります,send
+あげます,give
+もらいます,receive
+かします,lend
+かります,borrow
+おしえます,teach/tell (give information or instruction)
+ならいます,learn (from someone)
+かけます,make (telephone call)
+でんわをかけます,make a telephone call
+て,hand/arm
+はし,chopsticks (箸)
+スプーン,spoon
+ナイフ,knife
+フォーク,fork
+はさみ,scissors
+パソコン,personal computer
+けいたいでんわ,mobile phone
+メール,e-mail
+ねんがじょう,New Year's greeting card
+パンチ,hole puncher (office stationery tool)
+ホッチキス,stapler (office stationery tool)
+セロテープ,clear tape/sellotape tape/scotch tape
+けしゴム,eraser/rubber
+かみ,paper (紙)
+はな,flower/blossom
+シャツ,shirt
+プレゼント,gift/present
+にもつ,luggage/baggage/parcel
+おかね,money
+きっぷ,ticket (train/ bus/ etc.)
+クリスマス,Christmas
+ちち,father (my own)
+はは,mother (my own)
+おとうさん,father (someone else's)
+おかあさん,mother (someone else's)
+もう,already
+まだ,not yet
+これから,from now on/soon (starting from now)
+〜すてきですね,what a nice~/how lovely~ (used to praise something)
+いらっしゃい,Welcome/Come in/How nice of you to come (casual greeting by host or shop)
+どうぞおあがりください,Do come in/Please come in (polite invitation into home)
+しつれいします,May I/Excuse me (used when entering or leaving or interrupting politely)
+〜いかがですか,Won't you have ~?/How about ~? (politely offering something)
+いただきます,Thank you/Thankfully received/Let's eat (said before starting to eat or drink)
+ごちそうさまでした,That was delicious/Thank you for the meal (said after eating or drinking)
+ハンサム［な］,handsome
+きれい［な］,beautiful/clean (exception: na-adj)
+しずか［な］,quiet
+にぎやか［な］,lively
+ゆうめい［な］,famous (exception: na-adj)
+げんき［な］,healthy/energetic/cheerful (exception: na-adj)
+しんせつ［な］,kind/helpful/considerate (not for family)
+べんり［な］,convenient
+すてき［な］,fine/nice/wonderful
+おおきい,big/large
+ちいさい,small/little
+あたらしい,new/fresh
+ふるい,old (not for people age)
+いい,good
+よい,good (formal)
+わるい,bad
+さむい,cold (referring to temperature)
+つめたい,cold (referring to touch)
+むずかしい,difficult
+やさしい,easy/kind/gentle (depends on context)
+たかい,expensive/tall/high
+やすい,cheap/inexpensive
+ひくい,low/short
+おもしろい,interesting
+おいしい,delicious/tasty
+いそがしい,busy
+たのしい,enjoyable
+しろい,white
+くろい,black
+あかい,red
+あおい,blue
+さくら,cherry blossom/sakura flower
+やま,mountain
+まち,town/city
+たべもの,food
+ところ,place
+りょう,dormitory (student housing)
+レストラン,restaurant
+せいかつ,life/daily life
+しごと,work/business/job
+どう,how/how is it (asking condition or opinion)
+どんな〜,what kind of ~ (asks type or description)
+とても,very (strong positive degree)
+あまり,not so much (used with negative form)
+そして,and/and then (used to connect sentence)
+〜が〜,but (connects contrasting statements)
+おげんきですか,How are you? (polite greeting expression)
+〜もういっぱいいかがですか,Won't you like another cup of~ (polite offer for drinks)
+いいえけっこうです,No thank you (polite way to refuse)
+もう〜ですね,it is already ~ isn't it (used when noticing time or change)
+そろそろしつれいします,It's about time I leave/I should get going now (polite way to leave)
+またいらっしゃってください,Please come again (polite invitation to visit again)
+わかります,understand
+すき［な］,like
+きらい［な］,dislike/hate (exception: na-adj)
+じょうず［な］,good at (skilled)
+へた［な］,poor at (unskilled)
+ざんねん［な］,unfortunate/regrettable
+のみもの,drink/beverage
+りょうり,cooking/dish (cooked food)
+スポーツ,sports
+やきゅう,baseball
+ダンス,dance
+りょこう,trip/tour
+おんがく,music
+うた,song
+クラシック,classical music
+ジャズ,jazz
+コンサート,concert
+カラオケ,karaoke
+かぶき,kabuki (traditional Japanese musical drama)
+え,picture/drawing
+じ,character/letter (in writing)
+かんじ,Chinese character (kanji)
+ひらがな,hiragana script (hiragana)
+カタカナ,katakana script (katakana)
+ローマじ,the Roman alphabet (romaji)
+こまかいおかね,small change (small amount of money)
+チケット,ticket
+じかん,time
+ようじ,errand/something to do
+やくそく,promise/appointment
+アルバイト,part-time job/side job
+ごしゅじん,husband (someone else's)
+おっと,husband (my own)
+しゅじん,husband (my own)
+おくさん,wife (someone else's)
+つま,wife (my own)
+かない,my wife (my own)
+こども,child
+よく,often/well
+だいたい,mostly/roughly
+たくさん,many/much
+すこし,a little/a few
+ぜんぜん,not at all (used with negative)
+はやく,early/fast/quickly (adverb)
+〜から,because ~ (gives a reason)
+どうして,Why (for what reason)
+かしてください,Please lend me~ (asking to borrow something)
+いいですよ,Sure/Certainly (giving permission or agreement)
+ざんねんですが,Unfortunately/I'm sorry but… (soft polite refusal expression)
+いっしょにいかがですか,Won't you join me?/Won't you join us?/Would you like to go together? (polite invitation expression)
+〜はちょっと,~ is a bit difficult (soft indirect refusal)
+だめですか,So you can't come?/Is it not okay? (asking permission or possibility)
+またこんどおねがいします,Please ask me again another time/Maybe next time please (polite way to postpone or refuse)
+あります,have/exist/to be/take place or to be held (for non-living things)
+います,have/exist(居る)/to be/stay or be in a place (for living things)
+いろいろ［な］,various/many kinds
+あう,to meet (会う)
+あう,to fit/to match (合う)
+おとこのひと,man
+おんなのひと,woman
+おとこのこ,boy
+おんなのこ,girl
+かみ,god/deity (神)
+いぬ,dog
+ねこ,cat
+パンダ,panda
+ぞう,elephant
+き,tree/wood
+もの,thing
+でんち,battery
+はこ,box
+スイッチ,switch
+れいぞうこ,refrigerator
+テーブル,table
+ベッド,bed
+たな,shelf
+ドア,door
+まど,window
+ポスト,postbox/mailbox
+ビル,building
+エーティーエム,ATM/cash machine
+コンビニ,convenience store
+こうえん,park
+きっさてん,coffee shop/cafe
+〜や,~ shop/~store (used with shop names)
+のりば,boarding area/platform/place to ride transport (taxi/ train/ etc.)
+けん,prefecture (Japanese regional division)
+うえ,on/above/over
+した,under/below/beneath
+まえ,front/before
+うしろ,back/behind
+みぎ,right (side)
+ひだり,left (side)
+なか,in/inside
+そと,outside
+となり,next/next door
+ちかく,near/nearby
+あいだ,between/among
+〜や〜など,~ ~ and so on (gives partial examples)
+どうもすみません,Thank you (used when someone has gone out of their way for you)
+ナンプラー,nam pla (specifically Thai fish sauce)
+コーナー,corner/section (in store or building)
+いちばんした,the bottom/the lowest (lowest position or location)
+います,have (a child)
+こどもがいます,have a child
+います,stay/be (in a place)
+にほんにいます,be in Japan
+かかります,take/cost (referring to time or money)
+やすみます,take a day off (work)
+かいしゃをやすみます,take a day off from work
+ひとつ,one (used when counting things)
+ふたつ,two
+みっつ,three
+よっつ,four
+いつつ,five
+むっつ,six
+ななつ,seven
+やっつ,eight
+ここのつ,nine
+とお,ten
+いくつ,how many
+ひとり,one person
+ふたり,two people
+〜にん,~ people
+〜だい,~ counter for machines/cars (heavy things)
+〜まい,~ counter for paper/stamps (light things)
+〜かい,~ floor/times (counter for frequency)
+りんご,apple
+みかん,mandarin orange
+サンドイッチ,sandwich
+カレーライス,curry with rice
+アイスクリーム,ice cream
+きって,stamp
+はがき,postcard
+ふうとう,envelope
+りょうしん,parents
+きょうだい,siblings (brothers & sisters)
+あに,elder brother (my own)
+おにいさん,elder brother (someone else's)
+あね,elder sister (my own)
+おねえさん,elder sister (someone else's)
+おとうと,younger brother (my own)
+おとうとさん,younger brother (someone else's)
+いもうと,younger sister (my own)
+いもうとさん,younger sister (someone else's)
+がいこく,foreign country
+〜じかん,~ hours
+〜しゅうかん,~ weeks
+〜かげつ,~ months
+〜ねん,~ years
+〜ぐらい,~ about/approximately (duration of time, amount, quantity)
+どのくらい,how long
+ぜんぶで,in total
+みんな,everyone
+〜だけ,~only
+ふなびん,sea mail
+こうくうびん,airmail
+エアメール,airmail
+かしこまりました,Certainly/Understood (very polite customer-service expression)
+いいおてんきですね,Nice weather isn't it? (common small-talk expression)
+おでかけですか,Are you going out? (polite way to ask destination)
+ちょっと〜まで,I'm just going to ~ (vague reply about destination)
+いっていらっしゃい,See you later (said to someone leaving home)
+いってまいります,See you later (said when leaving home)
+かんたん［な］,easy/simple
+ちかい,near
+とおい,far
+はやい,fast/early
+おそい,slow/late
+おおい,many (people)/much
+ひとがおおい,many people
+すくない,few (people)/a little
+ひとがすくない,few people
+あたたかい,warm
+すずしい,cool
+あまい,sweet
+からい,spicy/hot (taste)
+おもい,heavy
+かるい,light
+いい,prefer (coffee)
+コーヒーがいい,I prefer coffee
+きせつ,season
+はる,spring
+なつ,summer
+あき,autumn/fall
+ふゆ,winter
+てんき,weather
+あめ,rain/rainy (雨)
+ゆき,snow/snowy
+くもり,cloudy
+ホテル,hotel
+くうこう,airport
+うみ,sea/ocean
+せかい,world
+パーティー,party
+あめ,candy (飴)
+おまつり,festival
+すきやき,sukiyaki (beef & vegetable hotpot)
+さしみ,sashimi (sliced raw fish)
+おすし,sushi (vinegared rice topped with raw fish)
+てんぷら,tempura (seafood & vegetables deep fried in oil)
+ぶたにく,pork
+とりにく,chicken
+ぎゅうにく,beef
+レモン,lemon
+いけばな,flower arrangement
+もみじ,maple/red leaves of autumn
+どちら,which one (between two things)
+どちらも,both
+いちばん,the most
+ずっと,by far (used for comparisons)
+はじめて,for the first time
+ただいま,I'm home (said when returning home)
+おかえりなさい,Welcome home (said to someone returning home)
+わあすごいひとですね,Wow! Look at all those people! (expressing surprise at a crowd)
+つかれました,I'm tired (after effort or activity)
+でも,but (using at the start of a sentence)
+〜けど,but~ (use in the middle of a sentence/ connect clauses) (informal equivalent of が)
+あそびます,enjoy oneself/play
+およぎます,swim
+むかえます,go to meet/welcome
+つかれます,get tired
+はいります,enter
+でます,go out/leave
+けっこんします,marry/get married
+かいものします,do shopping
+しょくじします,have a meal/dine
+さんぽします,take a walk (in a park)
+こうえんをさんぽします,take a walk in the park
+たいへん［な］,hard/tough/severe
+ほしい,want (something)
+ひろい,wide/spacious
+せまい,narrow/small
+プール,swimming pool
+かわ,river
+びじゅつ,fine arts
+つり,fishing
+スキー,skiing
+しゅうまつ,weekend
+おしょうがつ,New Year's Day
+〜ごろ,about (specific point in time, e.g.: 3 o'clock)
+ぐらい,about (duration or length of time: 3 hours)
+なにか,something (unspecified thing)
+どこか,somewhere/someplace (unspecified place)
+のどがかわきました,get thirsty (when expressing thirst)
+おなかがすきました,get hungry (when expressing hunger)
+おなかがいっぱいです,I am full (after eating enough)
+そうしましょう,Let's do that (used when agreeing with someone's suggestion)
+ごちゅうもんは,May I take your order? (used by restaurant staff)
+ていしょく,set meal (meal with side dishes)
+ぎゅうどん,bowl of rice topped with beef
+しょうしょうおまちください,Please wait a moment (polite customer-service expression)
+べつべつに,separately (not together)
+つけます,turn on
+けします,turn off
+あけます,open
+しめます,close/shut
+いそぎます,hurry
+まちます,wait
+もちます,hold
+とおります,pass (go through/pass by)
+てつだいます,help (with a task)
+わたします,hand over/pass the task
+よびます,call
+はなします,speak/talk
+つかいます,use
+とめます,stop/park
+みせます,show
+おしえます,tell/teach
+じゅうしょをおしえます,to tell an address
+すわります,sit down
+たちます,stand up
+きっさてんにはいります,enter a cafe
+きっさてんをでます,go out of a cafe
+ふります,fall (rain)
+あめがふります,rain is falling
+コピーします,copy
+でんき,electricity/light
+エアコン,air conditioner
+パスポート,passport
+なまえ,name
+じゅうしょ,address
+ちず,map
+しお,salt
+さとう,sugar
+もんだい,question/problem/trouble
+こたえ,answer
+よみかた,way of reading/how to read
+〜かた,way of doing ~/how to ~
+〜たち,plural suffix (we/ you/ they)
+〜すぎる,too much
+まっすぐ,straight
+ゆっくり,slowly/leisurely
+すぐ,immediately
+また,again
+あとで,later
+もうすこし,a little more
+もう〜,more~/another~
+さあ,right (used when encouraging a course of action)
+あれ,Oh!/Eh? (when surprised or wonder)
+しんごうをみぎへまがってください,Please turn right at the traffic light
+これでおねがいします,I would like to pay with this (used when handing over money)
+おつり,change (money returned after payment)
+おきます,put (置きます)
+つくります,make/produce
+うります,sell
+しります,get to know
+すみます,be going to live
+けんきゅうします,do research
+しりょう,materials/data
+カタログ,catalogue
+じこくひょう,timetable
+ふく,clothes
+せいひん,products
+ソフト,software
+でんしじしょ,electronic dictionary
+けいざい,economy
+しやくしょ,city hall/municipal office
+こうこう,senior high school
+はいしゃ,dentist
+どくしん［な］,single/unmarried
+すみません,I am sorry (used to apologize politely)
+みなさん,everybody/everyone
+おもいだします,remember/recollect (bring back to mind)
+いらっしゃいます,be (honorific of います)
+のります,ride/get on (train)
+でんしゃにのります,get on a train
+おります,get off (train)
+でんしゃをおります,get off a train
+のりかえます,change (train)
+あびます,take (shower)
+シャワーをあびます,take a shower
+いれます,put in/insert
+だします,take out/hand in/send
+おろします,withdraw
+おかねをおろします,withdraw money
+にゅうがくします,enroll to (university)
+だいがくににゅうがくします,enroll to university
+そつぎょうします,graduate from (university)
+だいがくをそつぎょうします,graduate from university
+おします,push/press
+おさけをのみます,drink alcohol
+はじめます,start/begin
+けんがくします,tour/visit (for study)
+でんわします,to phone
+わかい,young
+ながい,long
+みじかい,short
+あかるい,bright/light
+くらい,dark
+からだ,body/health
+あたま,head
+かみ,hair (髪)
+かお,face
+め,eye
+みみ,ear
+はな,nose
+くち,mouth
+は,tooth/teeth
+おなか,stomach
+あし,leg/foot
+せ,height
+サービス,service
+ジョギング,jogging
+シャワー,shower
+みどり,green/greenery
+おてら,Buddhist temple
+じんじゃ,Shinto shrine
+〜ばん,number~
+どうやって,how/in what way
+どの〜,which ~ (used for three or more)
+どれ,which one (used for three or more)
+すごいですね,That's amazing! (used to express admiration or surprise)
+いいえまだまだです,no I still have a long way to go (humble response to praise)
+おひきだしですか,Are you making a withdrawal? (used by bank staff)
+まず,first/first of all (starting step or action)
+つぎに,next/as a next step (introducing the next step)
+キャッシュカード,cash dispensing card
+あんしょうばんごう,personal identification number/PIN
+きんがく,amount of money
+かくにん,confirmation
+ボタン,button
+おぼえます,memorize
+わすれます,forget
+なくします,lose
+はらいます,pay
+かえします,give back/return
+でかけます,go out
+ぬぎます,take off (clothes/ shoes/ etc.)
+もっていきます,take (something)
+もってきます,bring (something)
+しんぱいします,worry
+ざんぎょうします,work overtime
+しゅっちょうします,go on a business trip
+くすり,medicine
+くすりをのみます,take medicine (drink medicine)
+おふろ,bath
+おふろにはいります,take a bath
+たいせつ［な］,important/precious
+だいじょうぶ［な］,all right
+あぶない,dangerous
+きんえん,no smoking
+けんこう,health
+けんこうほけんしょう,health insurance card
+ねつ,fever/temperature
+びょうき,illness/disease
+うわぎ,jacket/outerwear
+したぎ,underwear
+〜までに,before ~/by~ (deadline)
+ですから,therefore/so (giving a conclusion)
+どうしましたか,What's the matter? (asking about a problem)
+のど,throat
+〜がいたいです,I have a pain in my ~ (expressing pain in body part)
+かぜ,cold/flu (illness)
+おだいじに,Take care of yourself (said to someone who is sick)
+できます,be able to/can
+あらいます,wash
+ひきます,play (stringed instrument/piano/etc.)
+うたいます,sing
+あつめます,collect/gather
+すてます,throw away
+かえます,exchange/change
+うんてんします,drive
+よやくします,reserve/book
+ピアノ,piano
+〜メートル,〜 meter
+げんきん,cash
+しゅみ,hobby
+にっき,diary
+おいのり,prayer
+かちょう,section head
+ぶちょう,department head
+しゃちょう,company president
+どうぶつ,animal
+うま,horse
+インターネット,the Internet
+とくに,especially
+へえ,What!/Really! (expressing surprise)
+それはおもしろいですね,That's interesting isn't it? (reacting to new information)
+なかなか,not easily (used with negative)
+ほんとうですか,Really? (expressing surprise or confirmation)
+ぜひ,by all means (strongly encouraging or wanting something)
+のぼります,climb/go up
+とまります,stay
+ホテルにとまります,stay at a hotel
+そうじします,clean (room)
+せんたくします,wash (clothes)
+なります,become
+ねむい,sleepy
+つよい,strong
+よわい,weak
+れんしゅう,practice
+ゴルフ,golf
+すもう,sumo wrestling
+ひ,day/date
+ちょうし,condition
+いちど,once
+いちども,not once/never (used with negatives)
+だんだん,gradually
+もうすぐ,soon
+おかげさまで,thanks to you (said when appreciating the help received)
+かんぱい,Cheers! (said before drinking together)
+ダイエット,diet
+むり［な］,impossible/excessive (too much difficult)
+からだにいい,good for one's health
+いります,to need (要る)
+しらべます,to check/to investigate
+しゅうりします,to repair
+ぼく,I (informal わたし: mainly used by males)
+きみ,you (informal あなた: used to address people of same or lower status)
+〜くん,Mr. (informal 〜さん: used to address people of same or lower status/ often appended to boys' names)
+うん,yes (informal はい)
+ううん,no (informal いいえ)
+ことば,word/language
+きもの,kimono (traditional Japanese attire)
+ビザ,visa
+はじめ,the beginning
+おわり,the end
+こっち,this way/this place (informal)
+そっち,that way/that place near you (informal)
+あっち,that way/that place over there (informal)
+どっち,which way/where/which one (informal)
+みんなで,together with everyone
+よかったら,if you like/if it's okay with you (making a casual offer or suggestion)
+おもいます,to think
+いいます,to say
+かちます,to win
+まけます,to lose
+やくにたちます,to be useful
+うごきます,to move
+やめます,quit/retire/stop/give up
+きをつけます,take care/pay attention
+りゅうがくします,to study abroad
+むだ［な］,wasteful
+ふべん［な］,inconvenient
+すごい,amazing/great/awful (express astonishment)
+ほんとう［な］,true
+うそ,lie
+じどうしゃ,automobile/car
+こうつう,transportation/traffic
+ぶっか,prices/cost of goods
+ほうそう,announcement/broadcast
+ニュース,news
+アニメ,anime
+まんが,comic book
+デザイン,design/artwork
+ゆめ,dream
+てんさい,genius
+しあい,game/match
+いけん,opinion
+はなし,talk/speech/story
+ちきゅう,earth
+つき,moon
+さいきん,recently/these days
+たぶん,probably/maybe
+きっと,surely/definitely
+ほんとうに,really
+そんなに,not so/not that much (used with negative)
+〜について,about~/concerning ~ (topic of discussion)
+ひさしぶりですね,it's been a long time (meeting someone after a while)
+〜でものみませんか,how about drinking ~ or something? (casual invitation)
+もちろん,of course (strong agreement)
+もうかえらないと,I have to get home now/I have to go home now (feeling it's time to leave)
+きます,to put on (shirt)
+はきます,to put on (shoes/ trousers)
+かぶります,to put on (hat)
+かけます,to put on (glasses)
+しめます,to put on (tie)
+うまれます,to be born
+わたしたち,we
+コート,coat
+セーター,sweater
+スーツ,suit
+ぼうし,hat/cap
+めがね,glasses
+ケーキ,cake
+べんとう,box lunch
+ロボット,robot
+ユーモア,humor
+つごう,convenience/circumstances/availability
+おめでとうございます,congratulations (for birthdays/ weddings/ achievements/ etc.)
+おさがしですか,are you looking for ~? (used by staff offering help)
+では,well then (used when moving to next topic/action)
+やちん,rent (money paid for housing)
+ダイニングキッチン,kitchen with a dining area
+わしつ,Japanese-style room (tatami room)
+おしいれ,Japanese-style closet (for storing futons)
+ふとん,Japanese-style mattress and quilt (laid on floor for sleeping)
+まわします,to turn (spin/ rotate)
+ひきます,to pull
+さわります,to touch
+でます,to come out
+あるきます,to walk
+わたります,to cross
+まがります,to turn (change direction/ to the right or left)
+さびしい,lonely
+おゆ,hot water
+おと,sound
+サイズ,size
+こしょう,breakdown
+みち,road/way
+こうさてん,crossroads
+しんごう,traffic lights
+かど,corner
+はし,bridge (橋)
+ちゅうしゃじょう,parking lot/car park
+たてもの,building
+なんかいも,many times
+〜め,the -th (indicating order)
+くれます,to give (me)
+なおします,to repair/to correct
+つれていきます,to take (someone)
+つれてきます,to bring (someone)
+おくります,to escort (someone)
+しょうかいします,to introduce
+あんないします,show around/show the way
+せつめいします,to explain
+おじいさん,grandfather/old man
+おばあさん,grandmother/old woman
+おじさん,uncle (someone else's)
+おじ,uncle (my own)
+おばさん,aunt (someone else's)
+おば,aunt (my own)
+ゆうき,courage
+へいや,plain/flat area of land
+じゅんび,preparation
+ひっこし,moving out
+おかし,sweets/snacks
+ホームステイ,homestay
+ぜんぶ,all
+じぶんで,by oneself
+ほかに,besides/other than that
+かんがえます,to think/consider
+つきます,to arrive
+たりません,to be enough/to be sufficient
+いなか,countryside/hometown
+チャンス,chance
+おく,hundred million
+もし,if
+いみ,meaning
+もしもし,hello (used only on the phone)
+てんきん,job transfer (to another office or location)
+こと,thing/matter (abstract thing or event)
+ひま［な］,free/not busy (having spare time)
+いろいろおせわになりました,thank you for everything you've done for me (expressing gratitude for past help)
+がんばります,I'll do my best/Do one's best (expressing determination or effort)
+どうぞおげんきで,please take care of yourself (said when expressing long separation)
+きる,to wear (着る)
+きる,to cut (切る)
+のぼる,to climb (登る)
+のぼる,to go up (上る)
+とる,to take/pick up (取る)
+とる,to take a photo/video (撮る)
+あつい,hot (weather) (暑い)
+あつい,hot (object/drink) (熱い)
+なおす,to fix/to repair (直す)
+なおす,to cure/to heal (治す)
+しまる,to close (door/shop) (閉まる)
+しまる,to tighten (締まる)
+かえる,to return (帰る)
+かえる,to change something (変える)
+かわる,to change (変わる)
+かわる,to replace / to take over (代わる)
+あく,to open (開く)
+あく,to become empty / to become available (空く)
+つく,to arrive (着く)
+つく,to be attached / stick (付く)
+おりる,to get off (train/bus) (降りる)
+おりる,to descend / to go down (下りる)
+ひく,to pull (引く)
+ひく,to play a string instrument (弾く)
+あげる,to raise / to lift (上げる)
+あげる,to deep-fry (揚げる)
+さげる,to lower (下げる)
+さげる,to carry by hand (提げる)
+しめる,to close (閉める)
+しめる,to fasten / to tighten (締める)
+きく,to ask / to hear (聞く)
+きく,to listen carefully (e.g. music) (聴く)
+かう,to buy (買う)
+かう,to keep / to raise a pet (飼う)
+なく,to cry (泣く)
+なく,to make an animal sound (鳴く)
+つとめる,to work for a company (勤める)
+つとめる,to make an effort (努める)
+わかる,to understand (分かる)

@@ -1,3 +1,5 @@
+import { saveWordResult, getUserProgress } from "./database.js";
+
 let voices = [];
 
 voices = speechSynthesis.getVoices();
@@ -7,6 +9,8 @@ speechSynthesis.onvoiceschanged = () => {
 };
 
 const sessionSizeInput = document.getElementById("sessionSize");
+
+const levelSelect = document.getElementById("levelSelect");
 
 const autoRevealCheckbox = document.getElementById("autoReveal");
 
@@ -31,8 +35,8 @@ let known = 0;
 let missed = 0;
 let currentIndex = 0;
 let sessionWords = [];
-let missedWords = [];
 let revealTimer;
+let sessionActive = false;
 
 function revealMeaning() {
   meaningDiv.textContent = currentMeaning;
@@ -51,6 +55,10 @@ function revealMeaning() {
 
 function loadNextWord() {
   if (currentIndex >= sessionWords.length) {
+    sessionActive = false;
+
+    knowBtn.disabled = true;
+    missBtn.disabled = true;
     const accuracy = ((known / sessionWords.length) * 100).toFixed(1);
 
     japaneseDiv.textContent = "🎉 Session Complete";
@@ -60,21 +68,10 @@ function loadNextWord() {
         Missed: ${missed}<br>
         Accuracy: ${accuracy}%
         `;
-    if (missedWords.length > 0) {
-      const blob = new Blob([missedWords.join("\n")], { type: "text/plain" });
-
-      const link = document.createElement("a");
-
-      link.href = URL.createObjectURL(blob);
-
-      link.download = "missed.txt";
-
-      link.click();
-      URL.revokeObjectURL(link.href);
-    }
 
     startBtn.style.display = "inline-block";
     sessionSizeInput.style.display = "inline-block";
+    levelSelect.style.display = "inline-block";
     autoRevealCheckbox.parentElement.style.display = "flex";
 
     return;
@@ -114,34 +111,91 @@ function loadNextWord() {
   speechSynthesis.speak(speech);
 }
 
+function createSmartSession(vocabList, progress, sessionSize) {
+  const progressMap = new Map();
+
+  progress.forEach((item) => {
+    const key = item.word + "," + item.meaning;
+
+    progressMap.set(key, item);
+  });
+
+  const newWords = [];
+  const weakWords = [];
+  const otherWords = [];
+
+  vocabList.forEach((line) => {
+    const [word, meaning] = line.split(",", 2);
+
+    const key = word + "," + meaning;
+
+    const history = progressMap.get(key);
+
+    if (!history) {
+      newWords.push(line);
+    } else if (history.timesMissed > 0) {
+      weakWords.push(line);
+    } else {
+      otherWords.push(line);
+    }
+  });
+
+  // 50% weak
+  // 30% new
+  // 20% other
+
+  const weakCount = Math.floor(sessionSize * 0.5);
+  const newCount = Math.floor(sessionSize * 0.3);
+
+  const session = [
+    ...weakWords.sort(() => Math.random() - 0.5),
+
+    ...newWords.sort(() => Math.random() - 0.5),
+
+    ...otherWords.sort(() => Math.random() - 0.5),
+  ];
+
+  return session.slice(0, sessionSize);
+}
+
 startBtn.addEventListener("click", async () => {
-  const response = await fetch("vocab.txt");
+  const level = levelSelect.value;
+
+  const response = await fetch(`vocab_${level}.txt`);
   const text = await response.text();
 
   vocabList = text.split("\n").filter((line) => line.trim() !== "");
 
   const sessionSize = parseInt(sessionSizeInput.value);
 
-  sessionWords = [...vocabList]
-    .sort(() => Math.random() - 0.5)
-    .slice(0, sessionSize);
+  const progress = await getUserProgress();
+
+  sessionWords = createSmartSession(vocabList, progress, sessionSize);
 
   currentIndex = 0;
 
+  sessionActive = true;
+
+  knowBtn.disabled = false;
+  missBtn.disabled = false;
+
   known = 0;
   missed = 0;
-  missedWords = [];
   startBtn.style.display = "none";
 
   sessionSizeInput.style.display = "none";
+  levelSelect.style.display = "none";
   autoRevealCheckbox.parentElement.style.display = "none";
 
   loadNextWord();
 });
 
-knowBtn.addEventListener("click", () => {
+knowBtn.addEventListener("click", async () => {
+  if (!sessionActive) return;
   clearTimeout(revealTimer);
   speechSynthesis.cancel();
+
+  await saveWordResult(currentJapanese, currentMeaning, "correct");
 
   known++;
   currentIndex++;
@@ -149,13 +203,14 @@ knowBtn.addEventListener("click", () => {
   loadNextWord();
 });
 
-missBtn.addEventListener("click", () => {
+missBtn.addEventListener("click", async () => {
+  if (!sessionActive) return;
   clearTimeout(revealTimer);
   speechSynthesis.cancel();
 
-  missed++;
+  await saveWordResult(currentJapanese, currentMeaning, "missed");
 
-  missedWords.push(`${japaneseDiv.textContent},${currentMeaning}`);
+  missed++;
 
   currentIndex++;
 
@@ -163,11 +218,11 @@ missBtn.addEventListener("click", () => {
 });
 
 document.addEventListener("keydown", (event) => {
-  if (event.key === "Enter") {
+  if (event.key === "Enter" && sessionActive) {
     knowBtn.click();
   }
 
-  if (event.code === "Space") {
+  if (event.code === "Space" && sessionActive) {
     event.preventDefault();
 
     const speech = new SpeechSynthesisUtterance(currentJapanese);
@@ -180,16 +235,53 @@ document.addEventListener("keydown", (event) => {
     speechSynthesis.speak(speech);
   }
 
-  if (event.key.toLowerCase() === "r") {
+  if (event.key.toLowerCase() === "r" && sessionActive) {
     if (!autoRevealCheckbox.checked) {
       revealMeaning();
     }
   }
 
-  if (event.key.toLowerCase() === "n") {
+  if (event.key.toLowerCase() === "n" && sessionActive) {
     missBtn.click();
   }
 });
+
+function createSakura() {
+
+  const container = document.getElementById(
+    "sakura-container"
+  );
+
+
+  for (let i = 0; i < 15; i++) {
+
+    const sakura = document.createElement("div");
+
+    sakura.className = "sakura";
+
+    sakura.textContent = "🌸";
+
+
+    sakura.style.left =
+      Math.random() * 100 + "%";
+
+
+    sakura.style.animationDuration =
+      5 + Math.random() * 5 + "s";
+
+
+    sakura.style.animationDelay =
+      Math.random() * 5 + "s";
+
+
+    container.appendChild(sakura);
+
+  }
+
+}
+
+
+createSakura();
 
 // if ("serviceWorker" in navigator) {
 //   navigator.serviceWorker.register("./service-worker.js");

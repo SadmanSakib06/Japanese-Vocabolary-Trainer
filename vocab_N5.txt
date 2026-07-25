@@ -20,7 +20,7 @@
 なんさい,how old
 おいくつ,how old (polite)
 はい,yes
-いいえ,no
+いいえ,no/not at all
 けんきゅうしゃ,researcher/scholar
 はじめまして,Nice to meet you/How do you do (used only when meeting someone first time)
 〜からきました,I am from〜/I came from〜 (used to state your origin/ country/ city/ etc.)
@@ -41,7 +41,7 @@
 ノート,notebook
 てちょう,personal organizer
 めいし,business card
-カード,card (credit cards/ ID cards/ etc.)
+カード,card (credit cards/ID cards/etc.)
 えんぴつ,pencil
 ボールペン,ballpoint pen
 シャープペンシル,mechanical pencil
@@ -66,7 +66,7 @@
 なん,what (used before t/d/n sounds)
 なに,what (used in other cases except those)
 そう,so/that's right/like that (used to express agreement or confirmation)
-ええと,umm/well/let me see (filler word used when thinking of what to say)
+ええと,umm/well/let me see (filler word used while thinking what to say)
 あのう,umm/err (filler word used to show hesitation or politeness)
 えっ,Oh?/What! (used when surprised or hearing something unexpected)
 どうぞ,Here you are/Here you go (used when offering something to someone)
@@ -74,7 +74,7 @@
 そうですか,I see (used when receiving new information)
 ちがいます,No it isn't/You are wrong (used to politely disagree or correct something)
 あ,Oh!/Ah! (used when realizing or remembering something suddenly)
-ああ,ah/yes/ohh (used when acknowledging or understanding something) (used to express realization)
+ああ,ah/yes/ohh (used when realizing or understanding or acknowledging something)
 これからおせわになります,Thank you in advance for your kindness (used when starting a new relationship or job)
 こちらこそどうぞよろしくおねがいします,Pleased to meet you too (used as a polite response to an introduction)
 ここ,here/this place (near me)
@@ -103,7 +103,7 @@
 おくに,country (polite)
 かいしゃ,company
 うち,home/house (my place)
-いえ,house/home (building) 
+いえ,house/home (building)
 くつ,shoes
 ネクタイ,necktie/tie
 ワイン,wine
@@ -135,8 +135,8 @@
 びじゅつかん,art museum/art gallery
 いま,now
 〜じ,~ o'clock (for telling clock time)
-〜ふん,~ minutes (for 2/ 5/ 7/ 9)
-〜ぷん,~ minutes (for 1/ 3/ 4/ 6/ 8/ 10)
+〜ふん,~ minutes (for 2/5/7/9)
+〜ぷん,~ minutes (for 1/3/4/6/8/10)
 はん,half
 なんじ,what time
 なんぷん,what minute
@@ -173,7 +173,7 @@
 〜まで,until ~ (ending point of time/place)
 〜と〜,and (used to connect nouns)
 たいへんですね,That's tough isn't it (used to show sympathy or concern)
-ばんごう,number (phone/ room/ etc.)
+ばんごう,number (phone/room/etc.)
 でんわばんごう,phone number
 なんばん,what number (asking number/order)
 そちら,your place (your current location)
@@ -232,13 +232,13 @@
 いつ,when (asking about time or date)
 たんじょうび,birthday
 つぎ,next
-そうですね,That's right/Well let me see… (used while thinking or agreeing/ used for pausing while thinking)
+そうですね,That's right/Well let me see… (used while thinking or agreeing)
 どうもありがとうございます,Thank you very much (polite stronger expression of thanks)
 どういたしまして,You're welcome (reply after being thanked)
 〜ばんせん,platform number (train or bus platform)
 ふつう,local train (stops at all stations)
 きゅうこう,rapid train (stops at fewer stations)
-とっきゅう,express train (faster/ fewer stops)
+とっきゅう,express train (faster/fewer stops)
 たべます,eat
 のみます,drink
 すいます,smoke (cigarette)
@@ -316,7 +316,7 @@
 ホッチキス,stapler (office stationery tool)
 セロテープ,clear tape/sellotape tape/scotch tape
 けしゴム,eraser/rubber
-かみ,paper (紙) 
+かみ,paper (紙)
 はな,flower/blossom
 シャツ,shirt
 プレゼント,gift/present
@@ -389,7 +389,6 @@
 いいえけっこうです,No thank you (polite way to refuse)
 もう〜ですね,it is already ~ isn't it (used when noticing time or change)
 そろそろしつれいします,It's about time I leave/I should get going now (polite way to leave)
-いいえ,Not at all (polite negative response)
 またいらっしゃってください,Please come again (polite invitation to visit again)
 わかります,understand
 すき［な］,like
@@ -434,7 +433,7 @@
 たくさん,many/much
 すこし,a little/a few
 ぜんぜん,not at all (used with negative)
-はやく,early/fast/quickly
+はやく,early/fast/quickly (adverb)
 〜から,because ~ (gives a reason)
 どうして,Why (for what reason)
 かしてください,Please lend me~ (asking to borrow something)
@@ -445,7 +444,7 @@
 だめですか,So you can't come?/Is it not okay? (asking permission or possibility)
 またこんどおねがいします,Please ask me again another time/Maybe next time please (polite way to postpone or refuse)
 あります,have/exist/to be/take place or to be held (for non-living things)
-います,have/exist(居る)/to be/stay or be in a place (for living things) 
+います,have/exist(居る)/to be/stay or be in a place (for living things)
 いろいろ［な］,various/many kinds
 あう,to meet (会う)
 あう,to fit/to match (合う)
@@ -591,7 +590,7 @@
 すきやき,sukiyaki (beef & vegetable hotpot)
 さしみ,sashimi (sliced raw fish)
 おすし,sushi (vinegared rice topped with raw fish)
-てんぷら,tempura (seafood & vegetables deep fried in butter)
+てんぷら,tempura (seafood & vegetables deep fried in oil)
 ぶたにく,pork
 とりにく,chicken
 ぎゅうにく,beef
@@ -646,7 +645,7 @@
 べつべつに,separately (not together)
 つけます,turn on
 けします,turn off
-あけます,open (開ける)
+あけます,open
 しめます,close/shut
 いそぎます,hurry
 まちます,wait
@@ -799,8 +798,6 @@
 びょうき,illness/disease
 うわぎ,jacket/outerwear
 したぎ,underwear
-２３にち,two or three days
-２３〜,two or three ~
 〜までに,before ~/by~ (deadline)
 ですから,therefore/so (giving a conclusion)
 どうしましたか,What's the matter? (asking about a problem)
@@ -810,7 +807,7 @@
 おだいじに,Take care of yourself (said to someone who is sick)
 できます,be able to/can
 あらいます,wash
-ひきます,play (stringed instrument/ piano/ etc.)
+ひきます,play (stringed instrument/piano/etc.)
 うたいます,sing
 あつめます,collect/gather
 すてます,throw away
@@ -854,7 +851,6 @@
 だんだん,gradually
 もうすぐ,soon
 おかげさまで,thanks to you (said when appreciating the help received)
-でも,but
 かんぱい,Cheers! (said before drinking together)
 ダイエット,diet
 むり［な］,impossible/excessive (too much difficult)
@@ -934,7 +930,6 @@
 ロボット,robot
 ユーモア,humor
 つごう,convenience/circumstances/availability
-えーと,well/let me see (used while thinking what to say)
 おめでとうございます,congratulations (for birthdays/ weddings/ achievements/ etc.)
 おさがしですか,are you looking for ~? (used by staff offering help)
 では,well then (used when moving to next topic/action)
@@ -1006,12 +1001,12 @@
 きる,to cut (切る)
 のぼる,to climb (登る)
 のぼる,to go up (上る)
-とる,to take / pick up (取る)
-とる,to take a photo / video (撮る)
+とる,to take/pick up (取る)
+とる,to take a photo/video (撮る)
 あつい,hot (weather) (暑い)
 あつい,hot (object/drink) (熱い)
-なおす,to fix / to repair (直す)
-なおす,to cure / to heal (治す)
+なおす,to fix/to repair (直す)
+なおす,to cure/to heal (治す)
 しまる,to close (door/shop) (閉まる)
 しまる,to tighten (締まる)
 かえる,to return (帰る)
@@ -1041,4 +1036,3 @@
 つとめる,to work for a company (勤める)
 つとめる,to make an effort (努める)
 わかる,to understand (分かる)
-あける,to dawn / to become morning (明ける)
