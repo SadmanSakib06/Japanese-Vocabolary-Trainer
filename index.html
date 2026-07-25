@@ -14,61 +14,75 @@
 <body>
 
     <div class="container">
-        <h1>語彙 Trainer JLPT | N5</h1>
 
-        <input type="number" id="sessionSize" value="100" min="10">
+        <div id="loginScreen">
 
-        <br><br>
+            <h2>Welcome to Kotoba</h2>
 
-        <label class="toggle">
+            <p>Please sign in to continue.</p>
 
-            <input type="checkbox" id="autoReveal" checked>
+            <button id="loginBtn">
+                Continue with Google
+            </button>
 
-            <span class="slider"></span>
-
-            <span class="toggle-text">
-                Auto Reveal
-            </span>
-
-        </label>
-
-        <br><br>
-
-        <button id="startBtn">
-            Start Session
-        </button>
-
-        <div id="progressContainer">
-            <div id="progressBar"></div>
         </div>
 
-        <div id="progressText"></div>
+        <div id="appScreen">
 
-        <!-- <button id="showBtn">
-            Show Meaning
-        </button> -->
+            <h1>語彙 | JLPT Trainer </h1>
 
-        <div id="card">
-            <div id="japanese"></div>
-            <div id="meaning"></div>
+            <input type="number" id="sessionSize" value="100" min="10">
+
+            <br><br>
+
+            <label class="toggle">
+
+                <input type="checkbox" id="autoReveal" checked>
+
+                <span class="slider"></span>
+
+                <span class="toggle-text">
+                    Auto Reveal
+                </span>
+
+            </label>
+
+            <br><br>
+
+            <button id="startBtn">
+                Start Session
+            </button>
+
+            <div id="progressContainer">
+                <div id="progressBar"></div>
+            </div>
+
+            <div id="progressText"></div>
+
+            <div id="card">
+                <div id="japanese"></div>
+                <div id="meaning"></div>
+            </div>
+
+            <br><br>
+
+            <br><br>
+
+            <button id="knowBtn">
+                ✅ Knew It
+            </button>
+
+            <button id="missBtn">
+                ❌ Missed It
+            </button>
         </div>
-
-        <br><br>
-
-        <br><br>
-
-        <button id="knowBtn">
-            ✅ Knew It
-        </button>
-
-        <button id="missBtn">
-            ❌ Missed It
-        </button>
 
 
     </div>
 
-    <script src="script.js"></script>
+    <script type="module" src="firebase.js"></script>
+    <script type="module" src="auth.js"></script>
+    <script type="module" src="script.js"></script>
 
 </body>
 

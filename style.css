@@ -176,3 +176,7 @@ button:hover {
 .toggle input:checked + .slider::before {
   transform: translateX(24px);
 }
+
+#appScreen {
+  display: none;
+}

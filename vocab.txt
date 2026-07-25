@@ -74,7 +74,7 @@
 そうですか,I see (used when receiving new information)
 ちがいます,No it isn't/You are wrong (used to politely disagree or correct something)
 あ,Oh!/Ah! (used when realizing or remembering something suddenly)
-ああ,ah/yes (used when acknowledging or understanding something)
+ああ,ah/yes/ohh (used when acknowledging or understanding something) (used to express realization)
 これからおせわになります,Thank you in advance for your kindness (used when starting a new relationship or job)
 こちらこそどうぞよろしくおねがいします,Pleased to meet you too (used as a polite response to an introduction)
 ここ,here/this place (near me)
@@ -102,7 +102,8 @@
 くに,country
 おくに,country (polite)
 かいしゃ,company
-うち,home/house
+うち,home/house (my place)
+いえ,house/home (building) 
 くつ,shoes
 ネクタイ,necktie/tie
 ワイン,wine
@@ -156,7 +157,7 @@
 しけん,examination/test
 かいぎ,meeting/conference
 えいが,movie/film
-けさ, this morning
+けさ,this morning
 まいあさ,every morning
 まいばん,every night
 まいにち,every day
@@ -173,7 +174,7 @@
 〜と〜,and (used to connect nouns)
 たいへんですね,That's tough isn't it (used to show sympathy or concern)
 ばんごう,number (phone/ room/ etc.)
-でんわばんごう, phone number
+でんわばんごう,phone number
 なんばん,what number (asking number/order)
 そちら,your place (your current location)
 いきます,go
@@ -200,18 +201,18 @@
 せんしゅう,last week
 こんしゅう,this week
 らいしゅう,next week
-まいしゅう, every week
+まいしゅう,every week
 せんげつ,last month
 こんげつ,this month
 らいげつ,next month
-まいつき, every month
+まいつき,every month
 きょねん,last year
 ことし,this year
 らいねん,next year
-まいとし, every year
-〜ねん,~ year (used for years)
+まいとし,every year
+〜ねん,~year (used for years)
 なんねん,which year
-〜がつ,~ month (used for months)
+〜がつ,~month (used for months)
 なんがつ,what month
 ついたち,1st day of month
 ふつか,2nd day of month
@@ -231,7 +232,7 @@
 いつ,when (asking about time or date)
 たんじょうび,birthday
 つぎ,next
-そうですね,That's right/Let me see… (used while thinking or agreeing)
+そうですね,That's right/Well let me see… (used while thinking or agreeing/ used for pausing while thinking)
 どうもありがとうございます,Thank you very much (polite stronger expression of thanks)
 どういたしまして,You're welcome (reply after being thanked)
 〜ばんせん,platform number (train or bus platform)
@@ -247,7 +248,7 @@
 よみます,read
 かきます,write/draw
 かいます,buy
-とります,take
+とります,take something/pick up
 しゃしんをとります,take a photograph
 します,do/play
 あいます,meet
@@ -302,7 +303,7 @@
 かけます,make (telephone call)
 でんわをかけます,make a telephone call
 て,hand/arm
-はし,chopsticks
+はし,chopsticks (箸)
 スプーン,spoon
 ナイフ,knife
 フォーク,fork
@@ -315,7 +316,7 @@
 ホッチキス,stapler (office stationery tool)
 セロテープ,clear tape/sellotape tape/scotch tape
 けしゴム,eraser/rubber
-かみ,paper
+かみ,paper (紙) 
 はな,flower/blossom
 シャツ,shirt
 プレゼント,gift/present
@@ -344,7 +345,6 @@
 ゆうめい［な］,famous (exception: na-adj)
 げんき［な］,healthy/energetic/cheerful (exception: na-adj)
 しんせつ［な］,kind/helpful/considerate (not for family)
-ひま［な］,free time
 べんり［な］,convenient
 すてき［な］,fine/nice/wonderful
 おおきい,big/large
@@ -354,7 +354,6 @@
 いい,good
 よい,good (formal)
 わるい,bad
-あつい,hot (referring to temperature)
 さむい,cold (referring to temperature)
 つめたい,cold (referring to touch)
 むずかしい,difficult
@@ -386,7 +385,6 @@
 そして,and/and then (used to connect sentence)
 〜が〜,but (connects contrasting statements)
 おげんきですか,How are you? (polite greeting expression)
-そうですね,Well let me see (used for pausing while thinking)
 〜もういっぱいいかがですか,Won't you like another cup of~ (polite offer for drinks)
 いいえけっこうです,No thank you (polite way to refuse)
 もう〜ですね,it is already ~ isn't it (used when noticing time or change)
@@ -442,18 +440,20 @@
 かしてください,Please lend me~ (asking to borrow something)
 いいですよ,Sure/Certainly (giving permission or agreement)
 ざんねんですが,Unfortunately/I'm sorry but… (soft polite refusal expression)
-ああ,Ohh/Ahh (used to express realization or understanding)
 いっしょにいかがですか,Won't you join me?/Won't you join us?/Would you like to go together? (polite invitation expression)
 〜はちょっと,~ is a bit difficult (soft indirect refusal)
 だめですか,So you can't come?/Is it not okay? (asking permission or possibility)
 またこんどおねがいします,Please ask me again another time/Maybe next time please (polite way to postpone or refuse)
 あります,have/exist/to be/take place or to be held (for non-living things)
-います,have/exist/to be/stay or be in a place (for living things)
+います,have/exist(居る)/to be/stay or be in a place (for living things) 
 いろいろ［な］,various/many kinds
+あう,to meet (会う)
+あう,to fit/to match (合う)
 おとこのひと,man
 おんなのひと,woman
 おとこのこ,boy
 おんなのこ,girl
+かみ,god/deity (神)
 いぬ,dog
 ねこ,cat
 パンダ,panda
@@ -578,7 +578,7 @@
 あき,autumn/fall
 ふゆ,winter
 てんき,weather
-あめ,rain/rainy
+あめ,rain/rainy (雨)
 ゆき,snow/snowy
 くもり,cloudy
 ホテル,hotel
@@ -586,6 +586,7 @@
 うみ,sea/ocean
 せかい,world
 パーティー,party
+あめ,candy (飴)
 おまつり,festival
 すきやき,sukiyaki (beef & vegetable hotpot)
 さしみ,sashimi (sliced raw fish)
@@ -607,7 +608,7 @@
 わあすごいひとですね,Wow! Look at all those people! (expressing surprise at a crowd)
 つかれました,I'm tired (after effort or activity)
 でも,but (using at the start of a sentence)
-〜けど,but~ (use in the middle of a sentence/ connect clauses)
+〜けど,but~ (use in the middle of a sentence/ connect clauses) (informal equivalent of が)
 あそびます,enjoy oneself/play
 およぎます,swim
 むかえます,go to meet/welcome
@@ -636,7 +637,7 @@
 どこか,somewhere/someplace (unspecified place)
 のどがかわきました,get thirsty (when expressing thirst)
 おなかがすきました,get hungry (when expressing hunger)
-おなかがいっぱいです,I'm full (after eating enough)
+おなかがいっぱいです,I am full (after eating enough)
 そうしましょう,Let's do that (used when agreeing with someone's suggestion)
 ごちゅうもんは,May I take your order? (used by restaurant staff)
 ていしょく,set meal (meal with side dishes)
@@ -645,13 +646,14 @@
 べつべつに,separately (not together)
 つけます,turn on
 けします,turn off
-あけます,open
+あけます,open (開ける)
 しめます,close/shut
 いそぎます,hurry
 まちます,wait
 もちます,hold
-とります,take/pass (something)
+とおります,pass (go through/pass by)
 てつだいます,help (with a task)
+わたします,hand over/pass the task
 よびます,call
 はなします,speak/talk
 つかいます,use
@@ -678,8 +680,8 @@
 こたえ,answer
 よみかた,way of reading/how to read
 〜かた,way of doing ~/how to ~
-〜たち, plural suffix (we/ you/ they)
-〜すぎる, too much
+〜たち,plural suffix (we/ you/ they)
+〜すぎる,too much
 まっすぐ,straight
 ゆっくり,slowly/leisurely
 すぐ,immediately
@@ -741,7 +743,7 @@
 くらい,dark
 からだ,body/health
 あたま,head
-かみ,hair
+かみ,hair (髪)
 かお,face
 め,eye
 みみ,ear
@@ -857,7 +859,7 @@
 ダイエット,diet
 むり［な］,impossible/excessive (too much difficult)
 からだにいい,good for one's health
-いります,to need
+いります,to need (要る)
 しらべます,to check/to investigate
 しゅうりします,to repair
 ぼく,I (informal わたし: mainly used by males)
@@ -875,10 +877,7 @@
 あっち,that way/that place over there (informal)
 どっち,which way/where/which one (informal)
 みんなで,together with everyone
-〜けど,but (informal equivalent of が)
-おなかがいっぱいです,I am full
 よかったら,if you like/if it's okay with you (making a casual offer or suggestion)
-いろいろ［な］,various
 おもいます,to think
 いいます,to say
 かちます,to win
@@ -946,7 +945,6 @@
 ふとん,Japanese-style mattress and quilt (laid on floor for sleeping)
 まわします,to turn (spin/ rotate)
 ひきます,to pull
-かえます,to change
 さわります,to touch
 でます,to come out
 あるきます,to walk
@@ -961,7 +959,7 @@
 こうさてん,crossroads
 しんごう,traffic lights
 かど,corner
-はし,bridge
+はし,bridge (橋)
 ちゅうしゃじょう,parking lot/car park
 たてもの,building
 なんかいも,many times
@@ -976,6 +974,12 @@
 せつめいします,to explain
 おじいさん,grandfather/old man
 おばあさん,grandmother/old woman
+おじさん,uncle (someone else's)
+おじ,uncle (my own)
+おばさん,aunt (someone else's)
+おば,aunt (my own)
+ゆうき,courage
+へいや,plain/flat area of land
 じゅんび,preparation
 ひっこし,moving out
 おかし,sweets/snacks
@@ -998,3 +1002,43 @@
 いろいろおせわになりました,thank you for everything you've done for me (expressing gratitude for past help)
 がんばります,I'll do my best/Do one's best (expressing determination or effort)
 どうぞおげんきで,please take care of yourself (said when expressing long separation)
+きる,to wear (着る)
+きる,to cut (切る)
+のぼる,to climb (登る)
+のぼる,to go up (上る)
+とる,to take / pick up (取る)
+とる,to take a photo / video (撮る)
+あつい,hot (weather) (暑い)
+あつい,hot (object/drink) (熱い)
+なおす,to fix / to repair (直す)
+なおす,to cure / to heal (治す)
+しまる,to close (door/shop) (閉まる)
+しまる,to tighten (締まる)
+かえる,to return (帰る)
+かえる,to change something (変える)
+かわる,to change (変わる)
+かわる,to replace / to take over (代わる)
+あく,to open (開く)
+あく,to become empty / to become available (空く)
+つく,to arrive (着く)
+つく,to be attached / stick (付く)
+おりる,to get off (train/bus) (降りる)
+おりる,to descend / to go down (下りる)
+ひく,to pull (引く)
+ひく,to play a string instrument (弾く)
+あげる,to raise / to lift (上げる)
+あげる,to deep-fry (揚げる)
+さげる,to lower (下げる)
+さげる,to carry by hand (提げる)
+しめる,to close (閉める)
+しめる,to fasten / to tighten (締める)
+きく,to ask / to hear (聞く)
+きく,to listen carefully (e.g. music) (聴く)
+かう,to buy (買う)
+かう,to keep / to raise a pet (飼う)
+なく,to cry (泣く)
+なく,to make an animal sound (鳴く)
+つとめる,to work for a company (勤める)
+つとめる,to make an effort (努める)
+わかる,to understand (分かる)
+あける,to dawn / to become morning (明ける)
