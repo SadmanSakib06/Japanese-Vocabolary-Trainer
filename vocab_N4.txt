@@ -1,89 +1,146 @@
-みます,check/look at
-さがします,look for/search
-おくれます,be late
+みます,check / take a look at
+さがします,look for / search
+おくれます,be late (for an appointment etc.)
 じかんに,on time (by the appointed time)
-まにあいます,be in time
+まにあいます,be in time (for an appointment etc.)
 やります,do
 ひろいます,pick up
-れんらくします,contact/communicate
-きぶんがいい,feel well/feel good
-きぶんがわるい,feel bad/feel sick
-うんどうかい,sports day
-ぼんおどり,bon festival dance
-ばしょ,place/location
+れんらくします,contact / get in touch with
+きぶんがいい,feel well
+きぶんがわるい,feel ill
+うんどうかい,athletic meeting / sports day
+ぼんおどり,Bon Festival dance
+フリーマーケット,flea market
+ばしょ,place
 ボランティア,volunteer
-さいふ,wallet
-ごみ,trash/garbage
-こっかいぎじどう,National Diet Building
+さいふ,wallet / purse
+ごみ,garbage / rubbish / trash
+こっかいぎじどう,the Diet Building
 へいじつ,weekday
-べん,dialect
-こんど,next time
-じゅうぶん［な］,enough/sufficient
+〜べん,~ dialect
+こんど,next time / another time
+ずいぶん,very / quite / considerably
+じゅうぶん［な］,enough / sufficient
 ちょくせつ,directly
 いつでも,anytime
 どこでも,anywhere
 だれでも,anyone
 なんでも,anything
-こんな,like this/this kind of
-そんな,like that/that kind of
-あんな,like that over there/that kind of
-かたづきます,become tidy/be organized
-だします,put out/take out
-もえるごみ,burnable trash
-おきば,place for putting things
+こんな〜,~ like this
+そんな〜,~ like that (near the listener)
+あんな〜,~ like that (far from both)
+かたづきます,be put in order / be tidied up
+だします,put out (rubbish etc.)
+もえるごみ,burnable rubbish
+おきば,place to put things / storage spot
 よこ,side
 びん,bottle
 かん,can
 ガス,gas
+〜がいしゃ,~ company (suffix for company names)
 かいしゃ,company
-うちゅう,space/universe
-さま,very respectful title
+うちゅう,space / universe
+〜さま,Mr./Ms. ~ (respectful equivalent of 〜さん)
 うちゅうせん,spaceship
-こわい,scary/afraid
+こわい,scary / be afraid of
 うちゅうステーション,space station
-ちがいます,different/be wrong
+ちがいます,be different
 うちゅうひこうし,astronaut
-ほしであきひこ,Akihiko Hoshide (Japanese astronaut)
-かいます,keep a pet
-はしります,run
-みえます,can be seen
-きこえます,can be heard
-できます,be made/be completed
-ひらきます,set up/open/hold
-しんぱい［な］,worried
+かいます,keep (a pet) / raise (an animal)
+はしります,run / drive (along a road) [みちを〜]
+みえます,can be seen [〜がみえます]
+きこえます,can be heard [〜がきこえます]
+できます,be made / be completed / come into existence [〜ができます]
+ひらきます,set up (a class) / open / hold [〜をひらきます]
+しんぱい［な］,worried / anxious
 ペット,pet
 とり,bird
 こえ,voice
 なみ,wave
 はなび,fireworks
-どうぐ,tool
-クリーニング,cleaning
-いえ,home/house
-マンション,apartment
+どうぐ,tool / instrument / equipment
+クリーニング,(dry) cleaning / laundry
+いえ,house / home
+マンション, apartment building
 キッチン,kitchen
-きょうしつ,classroom
+〜きょうしつ,~ class
 パーティールーム,party room
-かた,person
-ご,after
-しか,only
-ほかの,other/others
-はっきり,clearly
+かた,person (respectful equivalent of ひと)
+〜ご,after ~ (duration of time)
+〜しか,only ~ (used with negatives)
+ほかの,other
+はっきり,clearly (conversational)
 かぐ,furniture
 ほんだな,bookcase
+いつか,one day / someday
 たてます,build
-いつか,one day/someday
-すばらしい,wonderful/awesome
+すばらしい,wonderful
 こどもたち,children
-だいすき,like very much/love
-しゅじんこう,hero/main character
-かたち,shape/form
-ふしぎ［な］,mysterious/strange
+だいすき［な］,like very much / favorite
+しゅじんこう,hero / heroine / main character
+かたち,shape
+ふしぎ［な］,fantastic / mysterious
 ポケット,pocket
 たとえば,for example
-つけます,attach/put on
+つけます,attach / put on
 じゆうに,freely
 そら,sky
 とびます,fly
-むかし,old days/past
+むかし,old days / long ago / the past 
 じぶん,oneself
-みらい,future
+みらい,future (general)
+しょうらい,future (life/career)
+こおり,ice
+すうじ,number
+せっけん,soap
+こしょう,pepper
+うれます,sell / be sold [〜がうれます]
+おどります,dance
+かみます,chew / bite
+えらびます,choose
+かよいます,go to and from (school etc.) [〜にかよいます]
+メモします,take a memo / make a note
+まじめ［な］,serious
+ねっしん［な］,earnest
+えらい,great / admirable
+ちょうどいい,proper / just right
+けしき,scenery / view
+びよういん,hair salon
+だいどころ,kitchen
+けいけん,experience
+ちから,power
+にんき,popularity
+いろ,colour
+あじ,taste
+ガム,chewing gum
+しなもの,goods
+ねだん,price
+きゅうりょう,salary
+ボーナス,bonus
+ゲーム,(computer) game
+ばんぐみ,programme
+ドラマ,drama
+かしゅ,singer
+しょうせつ,novel
+しょうせつか,novelist
+〜か,-er / -ist (e.g., painter, novelist)
+〜き,machine
+むすこ,(my) son
+むすこさん,(someone else's) son
+むすめ,(my) daughter
+むすめさん,(someone else's) daughter
+しばらく,a little while
+たいてい,usually / mostly
+それに,in addition
+それで,and so
+[ちょっと]おねがいがあるんですが,I have a (small) favour to ask.
+じつは,as a matter of fact
+かいわ,conversation
+うーん,well / let me see / hmm...
+おしらせ,notice
+さんかします,participate / join / attend
+ひにち,date
+たいいくかん,gymnasium
+むりょう,free of charge
+さそいます,invite / ask someone to join
+イベント,event

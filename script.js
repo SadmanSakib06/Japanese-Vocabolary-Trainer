@@ -247,39 +247,32 @@ document.addEventListener("keydown", (event) => {
 });
 
 function createSakura() {
+  const container = document.getElementById("sakura-container");
 
-  const container = document.getElementById(
-    "sakura-container"
-  );
-
-
-  for (let i = 0; i < 15; i++) {
-
+  for (let i = 0; i < 50; i++) {
     const sakura = document.createElement("div");
-
     sakura.className = "sakura";
 
-    sakura.textContent = "🌸";
+    // Random size (3px - 8px)
+    const size = 3 + Math.random() * 5;
+    sakura.style.width = size + "px";
+    sakura.style.height = size + "px";
 
+    // Random horizontal position
+    sakura.style.left = Math.random() * 100 + "%";
 
-    sakura.style.left =
-      Math.random() * 100 + "%";
+    // Random opacity
+    sakura.style.opacity = 0.08 + Math.random() * 0.12;
 
+    // Random fall speed (8s - 14s)
+    sakura.style.animationDuration = 8 + Math.random() * 6 + "s";
 
-    sakura.style.animationDuration =
-      5 + Math.random() * 5 + "s";
-
-
-    sakura.style.animationDelay =
-      Math.random() * 5 + "s";
-
+    // Random start delay
+    sakura.style.animationDelay = Math.random() * 5 + "s";
 
     container.appendChild(sakura);
-
   }
-
 }
-
 
 createSakura();
 
