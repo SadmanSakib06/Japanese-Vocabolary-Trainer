@@ -61,7 +61,7 @@
 どうぐ,tool / instrument / equipment
 クリーニング,(dry) cleaning / laundry
 いえ,house / home
-マンション, apartment building
+マンション,apartment building
 キッチン,kitchen
 〜きょうしつ,~ class
 パーティールーム,party room
@@ -123,7 +123,7 @@
 かしゅ,singer
 しょうせつ,novel
 しょうせつか,novelist
-〜か,-er / -ist (e.g., painter, novelist)
+〜か,-er / -ist (e.g. painter / novelist)
 〜き,machine
 むすこ,(my) son
 むすこさん,(someone else's) son
@@ -144,3 +144,52 @@
 むりょう,free of charge
 さそいます,invite / ask someone to join
 イベント,event
+あきます,open (a door) [ドアが～]
+しまります,close / shut (a door) [ドアが～]
+つきます,come on / be turned on (a light) [でんきが～]
+きえます,go off (a light) [でんきが～]
+こわれます,break (a chair) [いすが～]
+われます,break / smash (a glass) [コップが～]
+おれます,break / snap (a tree branch) [えだが～]
+やぶれます,tear (paper) [かみが～]
+よごれます,get dirty (clothes) [ふくが～]
+はずれます,be undone (a button) [ボタンが～]
+とまります,stop / park (a car) [くるまが～]
+まちがえます,make a mistake
+おとします,drop / lose
+かかります,be locked [かぎが～]
+ふきます,wipe
+とりかえます,change
+かたづけます,put things in order / tidy up
+おさら,plate / dish
+おちゃわん,rice bowl
+コップ,glass (vessel)
+ガラス,glass (material)
+ふくろ,bag
+しょるい,document / papers
+えだ,branch / twig
+えきいん,station attendant
+こうばん,police box
+スピーチ,speech
+へんじ,reply / answer
+おさきにどうぞ,After you. / Go ahead please.
+いまのでんしゃ,the train which has just left
+わすれもの,things left behind / lost property
+このくらい,about this (big)
+〜がわ,~ side
+〜へん,around ~ / ~ about
+おぼえていません,I don't remember.
+あみだな,overhead rack
+たしか,I'm pretty sure
+ああよかった,Oh that's great! / Thank goodness!
+しんじゅく,Shinjuku
+じしん,earthquake
+かべ,wall
+はり,hands (of a clock)
+さします,point
+えきまえ,the area in front of a station
+たおれます,fall down
+にし,west
+〜のほう,direction of ~
+もえます,burn
+レポーター,reporter
