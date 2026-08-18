@@ -169,6 +169,13 @@
 どようび,Saturday
 にちようび,Sunday
 なんようび,what day of the week
+おはよう,good morning
+おはようございます,good morning
+おやすみ,good night
+おやすみなさい,have a good night
+ごめん,sorry
+こんにちは,good afternoon
+こんばんは,good evening
 〜から,from ~ (starting point of time/place)
 〜まで,until ~ (ending point of time/place)
 〜と〜,and (used to connect nouns)
@@ -281,6 +288,12 @@
 しゅくだい,homework
 テニス,tennis
 サッカー,soccer/football
+ジム,gym
+ダンベル,dumbbell
+フェスティバル,festival
+サラダ,salad
+カーテン,curtain
+インフォメーション,information
 はなみ,cherry blossom viewing
 いっしょに,together
 ちょっと,a little while/a little/a bit
@@ -852,6 +865,7 @@
 もうすぐ,soon
 おかげさまで,thanks to you (said when appreciating the help received)
 かんぱい,Cheers! (said before drinking together)
+わあ, Wow!/Ohh!
 ダイエット,diet
 むり［な］,impossible/excessive (too much difficult)
 からだにいい,good for one's health
@@ -913,6 +927,7 @@
 〜でものみませんか,how about drinking ~ or something? (casual invitation)
 もちろん,of course (strong agreement)
 もうかえらないと,I have to get home now/I have to go home now (feeling it's time to leave)
+おさきにしつれいします,Excuse me for leaving before you / I'll take my leave now (said when leaving the office or a gathering before others)
 きます,to put on (shirt)
 はきます,to put on (shoes/ trousers)
 かぶります,to put on (hat)
@@ -1036,3 +1051,22 @@
 つとめる,to work for a company (勤める)
 つとめる,to make an effort (努める)
 わかる,to understand (分かる)
+おつかれさまでした,goodbye and thank you for your hard work
+おとしましたよ,you dropped this
+おきゃくさん,customer
+か,mosquito
+ざいりゅうカード,residence card
+インドネシアご,Indonesian language
+ちゅうごくご,Chinese language
+めんきょしょう,licence / license
+スマホ,smartphone
+かいてください,please write ~
+そうそう,that's right
+もういちどおねがいします,can you say that again please
+もうすこしゆっくりいってください,can you say that a little slower please
+よくわかりません,I am not sure I understand
+よんでください,please read
+これはにほんごでなんですか,what is this in Japanese
+これはにほんごでなんといいますか,how do you say this in Japanese
+〜ができますか,can you speak ~
+はいできます,yes I can

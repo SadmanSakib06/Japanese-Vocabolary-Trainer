@@ -20,7 +20,7 @@
 なんさい,how old
 おいくつ,how old (polite)
 はい,yes
-いいえ,no/not at all
+いいえ,no/not at all/ you are welcome
 けんきゅうしゃ,researcher/scholar
 はじめまして,Nice to meet you/How do you do (used only when meeting someone first time)
 〜からきました,I am from〜/I came from〜 (used to state your origin/ country/ city/ etc.)
@@ -169,6 +169,13 @@
 どようび,Saturday
 にちようび,Sunday
 なんようび,what day of the week
+おはよう,good morning
+おはようございます,good morning
+おやすみ,good night
+おやすみなさい,have a good night
+ごめん,sorry
+こんにちは,good afternoon
+こんばんは,good evening
 〜から,from ~ (starting point of time/place)
 〜まで,until ~ (ending point of time/place)
 〜と〜,and (used to connect nouns)
@@ -281,6 +288,12 @@
 しゅくだい,homework
 テニス,tennis
 サッカー,soccer/football
+ジム,gym
+ダンベル,dumbbell
+フェスティバル,festival
+サラダ,salad
+カーテン,curtain
+インフォメーション,information
 はなみ,cherry blossom viewing
 いっしょに,together
 ちょっと,a little while/a little/a bit
@@ -802,7 +815,7 @@
 ですから,therefore/so (giving a conclusion)
 どうしましたか,What's the matter? (asking about a problem)
 のど,throat
-〜がいたいです,I have a pain in my ~ (expressing pain in body part)
+〜いたいです,I have a pain in my ~ (expressing pain in body part)
 かぜ,cold/flu (illness)
 おだいじに,Take care of yourself (said to someone who is sick)
 できます,be able to/can
@@ -852,6 +865,7 @@
 もうすぐ,soon
 おかげさまで,thanks to you (said when appreciating the help received)
 かんぱい,Cheers! (said before drinking together)
+わあ, Wow!/Ohh!
 ダイエット,diet
 むり［な］,impossible/excessive (too much difficult)
 からだにいい,good for one's health
@@ -913,6 +927,7 @@
 〜でものみませんか,how about drinking ~ or something? (casual invitation)
 もちろん,of course (strong agreement)
 もうかえらないと,I have to get home now/I have to go home now (feeling it's time to leave)
+おさきにしつれいします,Excuse me for leaving before you / I'll take my leave now (said when leaving the office or a gathering before others)
 きます,to put on (shirt)
 はきます,to put on (shoes/ trousers)
 かぶります,to put on (hat)
@@ -1036,3 +1051,219 @@
 つとめる,to work for a company (勤める)
 つとめる,to make an effort (努める)
 わかる,to understand (分かる)
+おつかれさまでした,goodbye and thank you for your hard work
+おとしましたよ,you dropped this
+おきゃくさん,customer
+か,mosquito
+ざいりゅうカード,residence card
+インドネシアご,Indonesian language
+ちゅうごくご,Chinese language
+めんきょしょう,licence / license
+スマホ,smartphone
+かいてください,please write ~
+そうそう,that's right
+もういちどおねがいします,can you say that again please
+もうすこしゆっくりいってください,can you say that a little slower please
+よくわかりません,I am not sure I understand
+よんでください,please read
+これはにほんごでなんですか,what is this in Japanese
+これはにほんごでなんといいますか,how do you say this in Japanese
+〜ができますか,can you speak ~
+はいできます,yes I can
+みます,check / take a look at
+さがします,look for / search
+おくれます,be late (for an appointment etc.)
+じかんに,on time (by the appointed time)
+まにあいます,be in time (for an appointment etc.)
+やります,do
+ひろいます,pick up
+れんらくします,contact / get in touch with
+きぶんがいい,feel well
+きぶんがわるい,feel ill
+うんどうかい,athletic meeting / sports day
+ぼんおどり,Bon Festival dance
+フリーマーケット,flea market
+ばしょ,place
+ボランティア,volunteer
+さいふ,wallet / purse
+ごみ,garbage / rubbish / trash
+こっかいぎじどう,the Diet Building
+へいじつ,weekday
+〜べん,~ dialect
+こんど,next time / another time
+ずいぶん,very / quite / considerably
+じゅうぶん［な］,enough / sufficient
+ちょくせつ,directly
+いつでも,anytime
+どこでも,anywhere
+だれでも,anyone
+なんでも,anything
+こんな〜,~ like this
+そんな〜,~ like that (near the listener)
+あんな〜,~ like that (far from both)
+かたづきます,be put in order / be tidied up
+だします,put out (rubbish etc.)
+もえるごみ,burnable rubbish
+おきば,place to put things / storage spot
+よこ,side
+びん,bottle
+かん,can
+ガス,gas
+〜がいしゃ,~ company (suffix for company names)
+かいしゃ,company
+うちゅう,space / universe
+〜さま,Mr./Ms. ~ (respectful equivalent of 〜さん)
+うちゅうせん,spaceship
+こわい,scary / be afraid of
+うちゅうステーション,space station
+ちがいます,be different
+うちゅうひこうし,astronaut
+かいます,keep (a pet) / raise (an animal)
+はしります,run / drive (along a road) [みちを〜]
+みえます,can be seen [〜がみえます]
+きこえます,can be heard [〜がきこえます]
+できます,be made / be completed / come into existence [〜ができます]
+ひらきます,set up (a class) / open / hold [〜をひらきます]
+しんぱい［な］,worried / anxious
+ペット,pet
+とり,bird
+こえ,voice
+なみ,wave
+はなび,fireworks
+どうぐ,tool / instrument / equipment
+クリーニング,(dry) cleaning / laundry
+いえ,house / home
+マンション,apartment building
+キッチン,kitchen
+〜きょうしつ,~ class
+パーティールーム,party room
+かた,person (respectful equivalent of ひと)
+〜ご,after ~ (duration of time)
+〜しか,only ~ (used with negatives)
+ほかの,other
+はっきり,clearly (conversational)
+かぐ,furniture
+ほんだな,bookcase
+いつか,one day / someday
+たてます,build
+すばらしい,wonderful
+こどもたち,children
+だいすき［な］,like very much / favorite
+しゅじんこう,hero / heroine / main character
+かたち,shape
+ふしぎ［な］,fantastic / mysterious
+ポケット,pocket
+たとえば,for example
+つけます,attach / put on
+じゆうに,freely
+そら,sky
+とびます,fly
+むかし,old days / long ago / the past 
+じぶん,oneself
+みらい,future (general)
+しょうらい,future (life/career)
+こおり,ice
+すうじ,number
+せっけん,soap
+こしょう,pepper
+そば,near / vicinity
+そば,soba (buckwheat noodles)
+うれます,sell / be sold [〜がうれます]
+おどります,dance
+かみます,chew / bite
+えらびます,choose
+かよいます,go to and from (school etc.) [〜にかよいます]
+メモします,take a memo / make a note
+まじめ［な］,serious
+ねっしん［な］,earnest
+えらい,great / admirable
+ちょうどいい,proper / just right
+けしき,scenery / view
+びよういん,hair salon
+だいどころ,kitchen
+けいけん,experience
+ちから,power
+にんき,popularity
+いろ,colour
+あじ,taste
+ガム,chewing gum
+しなもの,goods
+ねだん,price
+きゅうりょう,salary
+ボーナス,bonus
+ゲーム,(computer) game
+ばんぐみ,programme
+ドラマ,drama
+かしゅ,singer
+しょうせつ,novel
+しょうせつか,novelist
+〜か,-er / -ist (e.g. painter / novelist)
+〜き,machine
+むすこ,(my) son
+むすこさん,(someone else's) son
+むすめ,(my) daughter
+むすめさん,(someone else's) daughter
+しばらく,a little while
+たいてい,usually / mostly
+それに,in addition
+それで,and so
+[ちょっと]おねがいがあるんですが,I have a (small) favour to ask.
+じつは,as a matter of fact
+かいわ,conversation
+うーん,well / let me see / hmm...
+おしらせ,notice
+さんかします,participate / join / attend
+ひにち,date
+たいいくかん,gymnasium
+むりょう,free of charge
+さそいます,invite / ask someone to join
+イベント,event
+あきます,open (a door) [ドアが～]
+しまります,close / shut (a door) [ドアが～]
+つきます,come on / be turned on (a light) [でんきが～]
+きえます,go off (a light) [でんきが～]
+こわれます,break (a chair) [いすが～]
+われます,break / smash (a glass) [コップが～]
+おれます,break / snap (a tree branch) [えだが～]
+やぶれます,tear (paper) [かみが～]
+よごれます,get dirty (clothes) [ふくが～]
+はずれます,be undone (a button) [ボタンが～]
+とまります,stop / park (a car) [くるまが～]
+まちがえます,make a mistake
+おとします,drop / lose
+かかります,be locked [かぎが～]
+ふきます,wipe
+とりかえます,change
+かたづけます,put things in order / tidy up
+おさら,plate / dish
+おちゃわん,rice bowl
+コップ,glass (vessel)
+ガラス,glass (material)
+ふくろ,bag
+しょるい,document / papers
+えだ,branch / twig
+えきいん,station attendant
+こうばん,police box
+スピーチ,speech
+へんじ,reply / answer
+おさきにどうぞ,After you. / Go ahead please.
+いまのでんしゃ,the train which has just left
+わすれもの,things left behind / lost property
+このくらい,about this (big)
+〜がわ,~ side
+〜へん,around ~ / ~ about
+おぼえていません,I don't remember.
+あみだな,overhead rack
+たしか,I'm pretty sure
+ああよかった,Oh that's great! / Thank goodness!
+しんじゅく,Shinjuku
+じしん,earthquake
+かべ,wall
+はり,hands (of a clock)
+さします,point
+えきまえ,the area in front of a station
+たおれます,fall down
+にし,west
+〜のほう,direction of ~
+もえます,burn
+レポーター,reporter

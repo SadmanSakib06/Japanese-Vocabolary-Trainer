@@ -94,6 +94,8 @@
 すうじ,number
 せっけん,soap
 こしょう,pepper
+そば,soba (buckwheat noodles) (蕎麦)
+そば,near / vicinity (側)
 うれます,sell / be sold [〜がうれます]
 おどります,dance
 かみます,chew / bite
