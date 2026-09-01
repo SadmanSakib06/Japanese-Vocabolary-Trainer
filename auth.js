@@ -11,6 +11,9 @@ import {
 const loginBtn = document.getElementById("loginBtn");
 const loginScreen = document.getElementById("loginScreen");
 const appScreen = document.getElementById("appScreen");
+const accountAvatar = document.getElementById("accountAvatar");
+const accountName = document.getElementById("accountName");
+const loginLabel = document.querySelector(".login-label");
 
 // ---------- Firebase ----------
 const provider = new GoogleAuthProvider();
@@ -24,6 +27,12 @@ function showApp() {
   appScreen.style.display = "block";
 }
 
+function setLoginBusy(isBusy) {
+  loginBtn.disabled = isBusy;
+  loginBtn.classList.toggle("is-loading", isBusy);
+  if (loginLabel) loginLabel.textContent = isBusy ? "Opening Google…" : "Continue with Google";
+}
+
 function showLogin() {
   loginScreen.style.display = "block";
   appScreen.style.display = "none";
@@ -31,13 +40,13 @@ function showLogin() {
 
 // ---------- Login ----------
 loginBtn.addEventListener("click", async () => {
-  loginBtn.disabled = true;
+  setLoginBusy(true);
 
   try {
     await signInWithPopup(auth, provider);
   } catch (error) {
     console.error("Login failed:", error);
-    loginBtn.disabled = false;
+    setLoginBusy(false);
   }
 });
 
@@ -48,12 +57,20 @@ onAuthStateChanged(auth, async (user) => {
 
     await createUserProfile(user);
 
+    if (accountAvatar) {
+      const fallback = (user.displayName || "語").trim().charAt(0).toUpperCase();
+      accountAvatar.textContent = fallback || "語";
+    }
+    if (accountName) accountName.textContent = user.displayName || "Study account";
+
+    window.kotobaUser = user;
     showApp();
+    window.dispatchEvent(new CustomEvent("kotoba:ready", { detail: { user } }));
   } else {
     console.log("❌ Not signed in");
 
     showLogin();
 
-    loginBtn.disabled = false;
+    setLoginBusy(false);
   }
 });

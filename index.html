@@ -4,116 +4,253 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vocabulary Trainer</title>
+    <meta name="theme-color" content="#0c0d12">
+    <meta name="color-scheme" content="dark">
+    <title>Kotoba | JLPT Vocabulary Trainer</title>
     <link rel="icon" href="icon.jpg">
-
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <div id="sakura-container"></div>
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+    <div id="sakura-container" aria-hidden="true"></div>
+    <div id="feedback-layer" aria-hidden="true"></div>
 
-    <div class="container">
+    <main class="container">
 
-        <div id="loginScreen">
+        <section id="loginScreen" class="screen-card login-card">
+            <div class="brand-mark" aria-hidden="true">語</div>
+            <p class="eyebrow">JAPANESE VOCABULARY</p>
+            <h1>Welcome to <span>Kotoba</span></h1>
+            <p class="login-copy">Build your Japanese vocabulary one word at a time.</p>
 
-            <h2>Welcome to Kotoba</h2>
-
-            <p>Please sign in to continue.</p>
-
-            <button id="loginBtn">
-                Continue with Google
+            <button id="loginBtn" class="primary-btn login-btn">
+                <span class="google-mark" aria-hidden="true">G</span>
+                <span class="login-label">Continue with Google</span>
+                <span class="login-spinner" aria-hidden="true"></span>
+                <span class="button-arrow" aria-hidden="true">→</span>
             </button>
 
-        </div>
+            <p class="login-note">Your progress is saved securely to your account.</p>
+        </section>
 
-        <div id="appScreen">
+        <section id="appScreen" class="app-shell">
+            <header class="app-header">
+                <div>
+                    <p class="eyebrow">JLPT VOCABULARY TRAINER</p>
+                    <h1>語彙 <span>|</span> Kotoba</h1>
+                    <p class="subtitle">Study smarter. Remember more.</p>
+                </div>
+                <div class="header-tools">
+                    <div id="accountChip" class="account-chip" aria-label="Signed-in account">
+                        <span id="accountAvatar" class="account-avatar" aria-hidden="true">語</span>
+                        <strong id="accountName">Signed in</strong>
+                    </div>
+                    <div class="header-chip"><span class="status-dot" aria-hidden="true"></span>ACTIVE RECALL</div>
+                </div>
+            </header>
 
-            <h1>語彙 | JLPT Trainer </h1>
+            <section class="study-snapshot" aria-label="Your study snapshot">
+                <article class="snapshot-card snapshot-accent snapshot-loading">
+                    <span class="snapshot-label">Words practiced</span>
+                    <strong id="statPracticed" class="snapshot-value">—</strong>
+                    <span id="statPracticedSub" class="snapshot-subtext">Loading your progress</span>
+                </article>
+                <article class="snapshot-card snapshot-loading">
+                    <span class="snapshot-label">Accuracy</span>
+                    <strong id="statAccuracy" class="snapshot-value">—</strong>
+                    <span id="statAccuracySub" class="snapshot-subtext">Across all reviews</span>
+                    <span class="snapshot-progress" aria-hidden="true"><span id="accuracyBar"></span></span>
+                </article>
+                <article class="snapshot-card snapshot-loading">
+                    <span class="snapshot-label">Needs review</span>
+                    <strong id="statReview" class="snapshot-value">—</strong>
+                    <span id="statReviewSub" class="snapshot-subtext">Words with a miss</span>
+                </article>
+            </section>
 
-            <input type="number" id="sessionSize" value="100" min="10">
+            <section class="setup-card" aria-label="Session settings">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">SESSION</p>
+                        <h2>Set up your practice</h2>
+                    </div>
+                    <span class="setup-icon" aria-hidden="true">◌</span>
+                </div>
 
-            <select id="levelSelect">
-                <option value="N5"> Level N5 </option>
-                <option value="N4"> Level N4 </option>
-            </select>
+                <div class="settings-grid">
+                    <label class="field-group">
+                        <span>Words</span>
+                        <div class="input-shell">
+                            <input type="number" id="sessionSize" value="100" min="10" aria-label="Number of words">
+                        </div>
+                        <div class="size-presets" aria-label="Session size presets">
+                            <button type="button" class="size-preset" data-size="10">10</button>
+                            <button type="button" class="size-preset" data-size="25">25</button>
+                            <button type="button" class="size-preset" data-size="50">50</button>
+                            <button type="button" class="size-preset is-active" data-size="100">100</button>
+                        </div>
+                    </label>
 
-            <br><br>
+                    <label class="field-group level-field">
+                        <span>JLPT level</span>
+                        <div class="level-control" role="group" aria-label="JLPT level">
+                            <select id="levelSelect" aria-hidden="true" tabindex="-1">
+                                <option value="N5">N5</option>
+                                <option value="N4">N4</option>
+                            </select>
+                            <button type="button" class="level-choice is-active" data-level="N5" aria-pressed="true">
+                                <strong>N5</strong>
+                                <small>Beginner</small>
+                            </button>
+                            <button type="button" class="level-choice" data-level="N4" aria-pressed="false">
+                                <strong>N4</strong>
+                                <small>Elementary</small>
+                            </button>
+                            <span class="level-slider" aria-hidden="true"></span>
+                        </div>
+                        <small class="field-note">Choose the level you want to focus on.</small>
+                    </label>
+                </div>
 
-            <label class="toggle">
+                <div class="session-footer">
+                    <label class="toggle">
+                        <input type="checkbox" id="autoReveal" checked>
+                        <span class="slider" aria-hidden="true"></span>
+                        <span class="toggle-copy">
+                            <strong>Auto reveal</strong>
+                            <small>Show the meaning after 3 seconds</small>
+                        </span>
+                    </label>
 
-                <input type="checkbox" id="autoReveal" checked>
+                    <button id="startBtn" class="primary-btn start-btn">
+                        <span>Start session</span>
+                        <span class="button-arrow" aria-hidden="true">→</span>
+                    </button>
+                </div>
+            </section>
 
-                <span class="slider"></span>
+            <section class="study-area" aria-label="Vocabulary study area">
+                <div class="progress-header">
+                    <span class="progress-label">SESSION PROGRESS</span>
+                    <span id="progressText">Ready when you are</span>
+                </div>
 
-                <span class="toggle-text">
-                    Auto Reveal
-                </span>
+                <div id="progressContainer" role="progressbar" aria-label="Session progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+                    <div id="progressBar"></div>
+                </div>
 
-            </label>
+                <article id="card" tabindex="0" aria-live="polite">
+                    <div class="card-glow" aria-hidden="true"></div>
+                    <div class="card-topline">
+                        <span class="card-kicker">JAPANESE</span>
+                        <button id="replayBtn" class="replay-btn" type="button" aria-label="Replay Japanese pronunciation" disabled>
+                            <span class="replay-icon" aria-hidden="true">◉</span>
+                            <span>Replay</span>
+                        </button>
+                    </div>
+                    <span id="cardState" class="card-state">Think of the meaning</span>
+                    <div id="japanese"></div>
+                    <div class="meaning-divider" aria-hidden="true"></div>
+                    <div id="meaning">Start a session to begin.</div>
+                    <p class="tap-hint">Tap the card to reveal</p>
+                </article>
 
-            <br><br>
+                <div class="answer-area">
+                    <button id="knowBtn" class="answer-btn know-btn" disabled>
+                        <span class="answer-icon">✓</span>
+                        <span>
+                            <strong>Knew it</strong>
+                            <small>Enter</small>
+                        </span>
+                    </button>
 
-            <button id="startBtn">
-                Start Session
-            </button>
+                    <button id="missBtn" class="answer-btn miss-btn" disabled>
+                        <span class="answer-icon">×</span>
+                        <span>
+                            <strong>Missed it</strong>
+                            <small>N</small>
+                        </span>
+                    </button>
+                </div>
 
-            <div id="progressContainer">
-                <div id="progressBar"></div>
+                <section id="sessionResults" class="session-results" aria-live="polite" hidden>
+                    <div class="results-orbit" aria-hidden="true">
+                        <span></span>
+                        <strong id="resultAccuracyRing">0%</strong>
+                    </div>
+
+                    <div class="results-heading">
+                        <p class="eyebrow">SESSION COMPLETE</p>
+                        <h2 id="resultTitle">Nice work.</h2>
+                        <p id="resultMessage">You finished your vocabulary session.</p>
+                    </div>
+
+                    <div class="result-stats" aria-label="Session results">
+                        <div class="result-stat">
+                            <span>Correct</span>
+                            <strong id="resultCorrect">0</strong>
+                        </div>
+                        <div class="result-stat">
+                            <span>Missed</span>
+                            <strong id="resultMissed">0</strong>
+                        </div>
+                        <div class="result-stat">
+                            <span>Time</span>
+                            <strong id="resultTime">0:00</strong>
+                        </div>
+                    </div>
+
+                    <p class="results-note">Your next smart session will prioritize the words you missed.</p>
+
+                    <div class="results-actions">
+                        <button id="resultSetupBtn" class="secondary-btn" type="button">
+                            <span>Adjust session</span>
+                        </button>
+                        <button id="resultAgainBtn" class="primary-btn" type="button">
+                            <span>Practice again</span>
+                            <span class="button-arrow" aria-hidden="true">→</span>
+                        </button>
+                    </div>
+                </section>
+
+                <p class="keyboard-hint">
+                    <span>SPACE</span> replay pronunciation&nbsp;&nbsp;·&nbsp;&nbsp;
+                    <span>R</span> reveal meaning
+                </p>
+            </section>
+
+            <div id="session-feedback" class="session-feedback" role="status" aria-live="polite" aria-atomic="true" hidden></div>
+
+            <div id="neko-left" class="neko-art" aria-hidden="true">
+                <svg viewBox="0 0 120 100" role="presentation">
+                    <path class="neko-tail" d="M92 69c18 5 22 24 8 27-8 2-14-4-11-10 2-4 8-4 10 0" />
+                    <path class="neko-body" d="M31 66c0-17 12-28 29-28s29 11 29 28v14H31z" />
+                    <path class="neko-head" d="M26 54V21l15 10c6-4 12-6 19-6s13 2 19 6l15-10v33c0 18-14 29-34 29S26 72 26 54z" />
+                    <path class="neko-inner-ear" d="M34 29l7 8 7-7M79 30l-7 7-7-7" />
+                    <circle class="neko-eye" cx="47" cy="48" r="3.2" />
+                    <circle class="neko-eye" cx="73" cy="48" r="3.2" />
+                    <path class="neko-face-line" d="M57 57q3 3 6 0M60 57v5M49 60h-10M71 60h10" />
+                </svg>
             </div>
 
-            <div id="progressText"></div>
-
-            <div id="card">
-                <div id="japanese"></div>
-                <div id="meaning"></div>
+            <div id="neko-right" class="neko-art" aria-hidden="true">
+                <svg viewBox="0 0 120 100" role="presentation">
+                    <path class="neko-tail" d="M28 69C10 74 9 91 22 95c8 2 14-4 11-10-2-4-8-4-10 0" />
+                    <path class="neko-body" d="M31 66c0-17 12-28 29-28s29 11 29 28v14H31z" />
+                    <path class="neko-head" d="M26 54V21l15 10c6-4 12-6 19-6s13 2 19 6l15-10v33c0 18-14 29-34 29S26 72 26 54z" />
+                    <path class="neko-inner-ear" d="M34 29l7 8 7-7M79 30l-7 7-7-7" />
+                    <circle class="neko-eye" cx="47" cy="48" r="3.2" />
+                    <circle class="neko-eye" cx="73" cy="48" r="3.2" />
+                    <path class="neko-face-line" d="M57 57q3 3 6 0M60 57v5M49 60h-10M71 60h10" />
+                </svg>
             </div>
+        </section>
 
-            <div id="neko-left">
-    <div class="cat-ear">
-        /\_/\
-    </div>
-
-    <div class="cat-face">
-        ( o.o )
-    </div>
-
-    <div class="cat-mouth">
-        &gt; ^ &lt;
-    </div>
-</div>
-
- <div id="neko-right">
-    <div class="cat-ear">
-        /\_/\
-    </div>
-
-    <div class="cat-face">
-        ( o.o )
-    </div>
-
-    <div class="cat-mouth">
-        &gt; ^ &lt;
-    </div>
-</div>
-
-            <br><br>
-
-            <br><br>
-
-            <button id="knowBtn">
-                ✅ Knew It
-            </button>
-
-            <button id="missBtn">
-                ❌ Missed It
-            </button>
-        </div>
-
-
-    </div>
+    </main>
 
     <script type="module" src="firebase.js"></script>
     <script type="module" src="auth.js"></script>

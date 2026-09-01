@@ -1,11 +1,12 @@
-const CACHE_NAME = "kotoba-v1";
+const CACHE_NAME = "kotoba-v7";
 
 const FILES_TO_CACHE = [
     "./",
     "./index.html",
     "./style.css",
     "./script.js",
-    "./vocab.txt",
+    "./vocab_N5.txt",
+    "./vocab_N4.txt",
     "./manifest.json"
 ];
 
@@ -25,4 +26,16 @@ self.addEventListener("fetch", event => {
             .then(response => response || fetch(event.request))
     );
 
+});
+
+self.addEventListener("activate", event => {
+    event.waitUntil(
+        caches.keys().then(keys =>
+            Promise.all(
+                keys
+                    .filter(key => key !== CACHE_NAME)
+                    .map(key => caches.delete(key))
+            )
+        )
+    );
 });
